@@ -1,3 +1,5 @@
+---
+---
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -4973,7 +4975,7 @@ h3 [aria-expanded] {
 /* line 1, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/errors.css.scss */
 .errors {
   text-align: center;
-  background: url(/img/photo3.png);
+  background: url({{ site.baseurl }}/img/photo3.png);
   background-color: #e4e9e5;
   background-attachment: fixed;
   background-repeat: no-repeat;
