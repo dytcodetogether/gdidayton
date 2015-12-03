@@ -75,9 +75,9 @@ table {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("gdi-jekyll//img/fontawesome-webfont.eot?v=4.4.0");
-  src: url("gdi-jekyll//img/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("gdi-jekyll//img/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("gdi-jekyll//img/fontawesome-webfont.woff?v=4.4.0") format("woff"),
-   url("gdi-jekyll//img/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("gdi-jekyll//img/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("/gdi-jekyll//img/fontawesome-webfont.eot?v=4.4.0");
+  src: url("/gdi-jekyll//img/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("/gdi-jekyll//img/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("/gdi-jekyll//img/fontawesome-webfont.woff?v=4.4.0") format("woff"),
+   url("/gdi-jekyll//img/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("/gdi-jekyll//img/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
