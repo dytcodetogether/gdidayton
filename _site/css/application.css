@@ -4973,7 +4973,7 @@ h3 [aria-expanded] {
 /* line 1, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/errors.css.scss */
 .errors {
   text-align: center;
-  background: url(gdi-jekyll/img/photo3.png);
+  background: url(/img/photo3.png);
   background-color: #e4e9e5;
   background-attachment: fixed;
   background-repeat: no-repeat;
