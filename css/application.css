@@ -4379,7 +4379,7 @@ h3 [aria-expanded] {
 /* line 1, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/home-page.css.scss */
 .opener {
   text-align: center;
-  background: url( {{ site.baseurl }}/img/photo3.png);
+  background: url( {{ site.baseurl }}/img/GDI_buttons_image3.jpg);
   background-color: #e4e9e5;
   background-attachment: fixed;
   background-repeat: no-repeat;
