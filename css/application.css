@@ -3410,7 +3410,7 @@ h3 a {
 }
 
 /* line 40, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/typography.css.scss */
-#headline h2, .accordion section, .chapter-aside h2, .single-profile .profile-content h3, .profile-left h3, .profile-right h3 {
+#headline h2, .accordion section, .chapter-aside h2, .single-profile .profile-content h3, .profile-left h3, .profile-right h3, .profile-center h3{
   border-bottom: 1px dashed #f95a61;
   padding-bottom: .2rem;
 }
@@ -4790,6 +4790,12 @@ h3 [aria-expanded] {
   margin-right: 2.35765%;
   width: 48.82117%;
   padding-right: 12px;
+}
+.profile-center {
+  text-align: center;
+  margin-bottom: 80px;
+
+  //width: 48.82117%;
 }
 /* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
 .profile-left:last-child {
