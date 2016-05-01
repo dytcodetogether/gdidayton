@@ -5194,9 +5194,3 @@ h3 [aria-expanded] {
  *= require state
  *= require reset
  */
- .profile-center {
-    @include profile;
-     margin-bottom: 80px;
-     text-align: center;
-
- }
