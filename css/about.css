@@ -104,6 +104,23 @@
     padding: 0;
   }
 }
+.profile-center{
+  margin-bottom: 80px;
+  text-align: center;
+}
+.profile-center  img{
+    box-shadow: .025rem .025rem .5rem #bdbec0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+.profile-center  h3{
+    text-align: center;
+  }
+.profile-center  p{
+
+    margin-top: 5px;
+  }
+
 
 .code{
   padding-bottom: 80px;
