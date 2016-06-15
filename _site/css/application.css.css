@@ -220,7 +220,7 @@ header {
         padding: 3rem 1rem 3rem 1rem; } }
     @media screen and (min-width: 500px) {
       header nav a:hover {
-        background-color: #282828;
+        background-color: #2a4758;
         color: #fbcfc6;
         /*box-shadow: .025rem .025rem .5rem $black;*/ } }
     header nav a.active-nav {
@@ -752,10 +752,10 @@ h3 [aria-expanded] {
       background-size: auto 60%;
       background-color: #F8F8F6; } }
   .opener h1 {
-    color: #2a4758;
+    color: white;
     font-size: 3.5rem;
     font-weight: 400;
-    padding-top: 100px;
+    padding-top: 150px;
     height: auto;
     width: 100%; }
     @media screen and (max-width: 500px) {
