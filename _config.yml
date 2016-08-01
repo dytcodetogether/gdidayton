@@ -21,7 +21,7 @@ category_dir: /
 baseurl: /gdidayton
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://gdidayton.github.io/gdidayton
+url: http://www.gdidayton.com
 
 #### Under the Hood Stuff #####
 
@@ -41,5 +41,3 @@ permalink: pretty
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir: /_scss
-
-  
