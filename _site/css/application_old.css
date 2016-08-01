@@ -76,9 +76,9 @@ table {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/gdidayton//img/fontawesome-webfont.eot?v=4.4.0");
-  src: url("/gdidayton//img/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("/gdidayton//img/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("/gdidayton//img/fontawesome-webfont.woff?v=4.4.0") format("woff"),
-   url("/gdidayton//img/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("/gdidayton//img/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+  src: url("//img/fontawesome-webfont.eot?v=4.4.0");
+  src: url("//img/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("//img/fontawesome-webfont.woff2?v=4.4.0") format("woff2"), url("//img/fontawesome-webfont.woff?v=4.4.0") format("woff"),
+   url("//img/fontawesome-webfont.ttf?v=4.4.0") format("truetype"), url("//img/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -4378,7 +4378,7 @@ h3 [aria-expanded] {
 /* line 1, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/home-page.css.scss */
 .opener {
   text-align: center;
-  background: url( /gdidayton/img/GDI_buttons_image3.jpg);
+  background: url( /img/GDI_buttons_image3.jpg);
   background-color: #e4e9e5;
   background-attachment: fixed;
   background-repeat: no-repeat;
