@@ -143,7 +143,7 @@ a {
   text-transform: uppercase;
   letter-spacing: .14rem;
   background-color: #d8ae64;
-  padding: .5rem;
+  padding: .5rem 1rem;
   border: none; }
   .button:hover {
     background-color: #282828;
