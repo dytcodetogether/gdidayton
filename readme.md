@@ -5,5 +5,9 @@ to run locally:
 
 in root folder
 
+```
 jekyll build
+```
+```
 jekyll serve
+```
