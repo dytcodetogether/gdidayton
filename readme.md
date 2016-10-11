@@ -20,8 +20,8 @@ The layouts folder contains the template html pages for the site. Currently ther
 _layouts
   -default.html
 
-The scss folders contain the stylsheeps used for the site, these files are compiled by jekyll into the css/application.css.scss file. The files should be named according to the pages or modules they modify.
-Check the css/application.css.scss file for order of import.
+The scss folders contain the stylesheets used for the site, these files are compiled during the jekyll build or serve into the css/application.scss file. The files should be named according to the pages or modules they modify.
+Check the css/application.scss file for order of import.
 _scss
    -reset.scss
    -bourbon/bourbon
@@ -36,3 +36,5 @@ _scss
    -about.scss
    -sponsors.scss
    -errors.scss
+
+   

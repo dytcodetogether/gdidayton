@@ -1,0 +1,39 @@
+//The stylesheets for this project are structured using SMACSS (Scalable and Modular Architecture for CSS)
+//https://smacss.com
+
+//BASE: styles for basic page components
+// Custom Styles
+$mainfont: "Roboto";
+
+//Colors
+$pink: #f95a61;
+$black: #282828;
+$blush: #fbcfc6;
+$gold: #d8ae64;
+$green: #074232;
+$gray: #2d2e2e;
+$paleblue: #e4e9e5;
+$navy: #2a4758;
+$white: #ffffff;
+$linkcolor: #00838C;
+
+$mobile: new-breakpoint(max-width 420px 4);
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $mainfont, Helvetica, Arial, sans-serif;
+  font-size: 100%; //16px
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid $pink;
+  border-bottom: 2px solid $pink;
+  background: transparent;
+  height: 6px;
+}

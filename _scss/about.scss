@@ -1,0 +1,319 @@
+.mission{
+  @include span-columns(10);
+  @include shift(1);
+  text-align: center;
+  margin-bottom: 50px;
+  @media screen and (max-width: 500px){
+    @include span-columns(12);
+    @include shift(0);
+  }
+  p{
+    color: $black;
+  }
+}
+
+.vision{
+  @include span-columns(5);
+  @include shift(1);
+  text-align: center;
+  width: 80%;
+  margin: 0px 10%;
+  margin-bottom: 50px;
+  @media screen and (max-width: 500px){
+    @include span-columns(12);
+    text-align: center;
+    margin: 0 0 40px 0;
+  }
+  .subtitle{
+    padding: 0 .2rem .5rem .2rem;
+  }
+
+}
+
+.values{
+  @include span-columns(5);
+  @include omega();
+  text-align: center;
+  width: 80%;
+  margin: 0px 10%;
+  @media screen and (max-width: 500px){
+    @include span-columns(12);
+    margin: 0px;
+    text-align: center;
+  }
+  .subtitle{
+    padding: 0 .2rem .5rem .2rem;
+  }
+}
+
+.support,.story{
+  background-image: -webkit-radial-gradient( white, #e4e9e5);
+  background-image: radial-gradient(   white, #e4e9e5);
+  text-align: center;
+  height: 100%;
+  padding: 60px 0;
+  p{
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%;
+    color: #282828;
+    color: $black;
+    @media screen and (max-width: 500px){
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%;
+    }
+  }
+}
+.support p:last-child, .story p:last-child {
+  margin-right: 0;
+}
+
+.story {
+  margin: 60px 0;
+}
+
+/* line 92, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-left {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-bottom: 80px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  padding-right: 12px;
+}
+.profile-center {
+  text-align: center;
+  margin-bottom: 80px;
+
+  //width: 48.82117%;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-left:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  /* line 92, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+  .profile-left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  .profile-left:last-child {
+    margin-right: 0;
+  }
+}
+/* line 74, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-left img {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 47.58542%;
+  margin-left: 26.20729%;
+  box-shadow: .025rem .025rem .5rem #bdbec0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-left img:last-child {
+  margin-right: 0;
+}
+/* line 81, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-left h3 {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+  text-align: center;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-left h3:last-child {
+  margin-right: 0;
+}
+/* line 86, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-left p {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+  margin-top: 5px;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-left p:last-child {
+  margin-right: 0;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-left:last-child {
+  margin-right: 0;
+}
+
+/* line 98, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-right {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-bottom: 80px;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-right: 0;
+  padding-left: 12px;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-right:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  /* line 98, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+  .profile-right {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  /* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+  .profile-right:last-child {
+    margin-right: 0;
+  }
+}
+/* line 74, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-right img {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 47.58542%;
+  margin-left: 26.20729%;
+  box-shadow: .025rem .025rem .5rem #bdbec0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-right img:last-child {
+  margin-right: 0;
+}
+/* line 81, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-right h3 {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+  text-align: center;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-right h3:last-child {
+  margin-right: 0;
+}
+/* line 86, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.profile-right p {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+  margin-top: 5px;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-right p:last-child {
+  margin-right: 0;
+}
+/* line 38, /Users/kcjones-evans/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/neat-1.5.1/app/assets/stylesheets/grid/_span-columns.scss */
+.profile-right:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  /* line 98, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+  .profile-right {
+    padding: 0;
+  }
+}
+
+/* line 108, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.code {
+  padding-bottom: 80px;
+}
+/* line 110, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.code p {
+  margin-top: 10px;
+  color: #282828;
+}
+
+/* line 115, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
+.board, .contact {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+  text-align: center;
+} /*
+
+.story{
+  margin:60px 0;
+}
+@mixin profile{
+  @include span-columns(6);
+  margin-bottom: 80px;
+  @media screen and (max-width: 500px){
+    @include span-columns(12);
+  }
+  img{
+    @include span-columns(3 of 6);
+    @include shift (1.5);
+    box-shadow: .025rem .025rem .5rem #bdbec0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  h3{
+    @include span-columns(6 of 6);
+    text-align: center;
+    @extend %dashed-border;
+  }
+  p{
+    @include span-columns(6 of 6);
+    margin-top: 5px;
+  }
+}
+
+.profile-left{
+  @include profile;
+  @include span-columns(6);
+  padding-right: 12px;
+}
+
+.profile-right{
+  @include profile;
+  @include span-columns(6);
+  @include omega();
+  padding-left: 12px;
+  @media screen and (max-width: 500px){
+    padding: 0;
+  }
+}
+
+.code{
+  padding-bottom: 80px;
+  p{
+    margin-top: 10px;
+    color: $black;
+  }
+}
+.board, .contact {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+*/
