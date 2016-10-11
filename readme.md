@@ -23,7 +23,6 @@ The html pages located in the root are templates that are inserted into the {{ c
       Shows a copy of the GDI code-of-conduct, link to it in the footer
   -index.html
       Shows the front page content: this is where the events gets edited
-  -intro-html-css.html
   -materials.html
       shows the materials page content: this is where links to GDI Dayton course content lives
   -supporters.html
