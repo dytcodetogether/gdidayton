@@ -57,6 +57,12 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 100%; }
@@ -100,7 +106,7 @@ h3 {
   h3 a {
     color: #282828; }
 
-#headline h2, .accordion section, .chapter-aside h2, .single-profile .profile-content h3 {
+.headline h2, .accordion section, .chapter-aside h2, .single-profile .profile-content h3 {
   border-bottom: 1px dashed #f95a61;
   padding-bottom: .2rem; }
 
@@ -173,7 +179,7 @@ a {
 
 .main-container {
   padding-top: 85px; }
-  @media screen and (mmax-width: 500px) {
+  @media screen and (max-width: 500px) {
     .main-container {
       padding: 0px 25px; } }
 
@@ -232,7 +238,8 @@ footer {
   text-align: center;
   min-height: 190px;
   background-color: #2a4758;
-  padding: 20px 0; }
+  padding: 20px 0;
+  width: 100%; }
   @media screen and (max-width: 500px) {
     footer p.subtitle {
       font-size: .75em; } }
@@ -288,16 +295,17 @@ a#skipnav {
     -moz-transition: top 0.1s ease-in, background 0.5s linear;
     transition: top 0.1s ease-in, background 0.5s linear; }
 
-#main-content {
-  outline: 0; }
+.main-content {
+  outline: 0;
+  padding-bottom: 190px; }
 
-#headline {
+.headline {
   text-align: center; }
-  #headline img {
+  .headline img {
     height: 35px;
     display: block;
     margin: auto; }
-  #headline h2 {
+  .headline h2 {
     font-weight: 300;
     color: #d8ae64;
     padding: 0px 5px 6px 5px;
@@ -326,6 +334,10 @@ a#skipnav {
 @media screen and (max-width: 1250px) {
   .fork-me {
     display: none; } }
+
+.wrapper {
+  min-height: 100%;
+  position: relative; }
 
 .mapTooltip {
   background-color: #f95a61;
@@ -619,24 +631,46 @@ h3 [aria-expanded] {
   background-color: transparent;
   border: none; }
 
-#content-section {
+.intro {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  text-align: center;
+  margin-bottom: 50px; }
+  .intro:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 500px) {
+    .intro {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%; }
+      .intro:last-child {
+        margin-right: 0; } }
+  .intro p {
+    color: #282828; }
+
+.content-section {
   margin-bottom: 80px; }
   @media screen and (min-width: 500px) {
-    #content-section {
+    .content-section {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 65.88078%; }
-      #content-section:last-child {
+      .content-section:last-child {
         margin-right: 0; } }
 
-#headline {
+.headline {
   float: left;
   display: block;
   margin-right: 3.57866%;
   width: 100%;
   margin-right: 0; }
-  #headline:last-child {
+  .headline:last-child {
     margin-right: 0; }
 
 @media screen and (max-width: 500px) {
@@ -1277,95 +1311,6 @@ h3 [aria-expanded] {
     .errors a:hover {
       color: #F95A61; }
 
-.show {
-  display: none; }
-
-.show-inline {
-  display: none; }
-
-.hide-chapters {
-  display: none; }
-
-@media screen and (max-width: 500px) {
-  .show {
-    display: block; }
-
-  .show-inline {
-    display: inline; }
-
-  .hide {
-    display: none; }
-
-  .mission-statement {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    margin-left: 0%;
-    text-align: left; }
-    .mission-statement:last-child {
-      margin-right: 0; }
-    .mission-statement p {
-      font-size: .9rem; }
-
-  .map h2 {
-    padding-top: 30px; }
-
-  .stats-section {
-    margin: 20px 0; }
-    .stats-section .stats {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .stats-section .stats:last-child {
-        margin-right: 0; }
-      .stats-section .stats img {
-        margin-top: 20px; }
-      .stats-section .stats p {
-        margin-bottom: 20px; }
-
-  .press-logos {
-    height: 160px; }
-    .press-logos img {
-      height: 45px; }
-
-  .underlined-headline hr {
-    width: 90%;
-    margin-bottom: 15px; }
-  .underlined-headline h2 {
-    font-size: 1.2em; }
-
-  .chapter-aside .state-container-aside {
-    margin-top: -20px; }
-  .chapter-aside .sponsors, .chapter-aside .partners {
-    margin-top: -20px; }
-    .chapter-aside .sponsors img, .chapter-aside .partners img {
-      width: 30%;
-      vertical-align: middle; }
-
-  .single-profile {
-    margin-bottom: 0em; }
-    .single-profile .profile-img {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
-      margin-left: 25.58941%;
-      padding: 5px; }
-      .single-profile .profile-img:last-child {
-        margin-right: 0; }
-      .single-profile .profile-img img {
-        margin: 20px 0; }
-    .single-profile .profile-content {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .single-profile .profile-content:last-child {
-        margin-right: 0; }
-      .single-profile .profile-content h3 {
-        text-align: center; } }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
