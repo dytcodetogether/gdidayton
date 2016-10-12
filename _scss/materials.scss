@@ -1,11 +1,25 @@
-#content-section{
+.intro{
+  @include span-columns(10);
+  @include shift(1);
+  text-align: center;
+  margin-bottom: 50px;
+  @media screen and (max-width: 500px){
+    @include span-columns(12);
+    @include shift(0);
+  }
+  p{
+    color: $black;
+  }
+}
+
+.content-section{
  @media screen and (min-width: 500px) {
    @include span-columns(8);
  }
  margin-bottom: 80px;
 }
 
-#headline{
+.headline{
   @include span-columns(8 of 8);
   @include omega();
 }

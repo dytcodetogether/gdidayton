@@ -16,13 +16,23 @@ $paleblue: #e4e9e5;
 $navy: #2a4758;
 $white: #ffffff;
 $linkcolor: #00838C;
+$red: #da141e;
 
 $mobile: new-breakpoint(max-width 420px 4);
+
+$footer-height: 190px;
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
 }
 
 body {
