@@ -18,3 +18,5 @@ To start the project, in your root folder, run:
 ## Contributing
 
 The GDI Dayton website is an open source project always accepting community input. See something that could be better? [Submit an issue](https://github.com/gdidayton/gdidayton/issues) to us, or [create a pull request](https://github.com/gdidayton/gdidayton/pulls) to make changes. Visit [GitHub's guide to contributing](https://guides.github.com/activities/contributing-to-open-source/) for more tips.
+
+See our [Contritubuting.md](https://github.com/kcjonesevans/gdidayton.com/blob/gh-pages/CONTRIBUTING.md) for details.
