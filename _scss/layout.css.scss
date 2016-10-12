@@ -12,7 +12,7 @@
 
 .main-container {
   padding-top: 85px;
-  @media screen and (mmax-width: 500px) {
+  @media screen and (max-width: 500px) {
     padding: 0px 25px;
   }
 }
@@ -83,9 +83,11 @@ header {
 
 footer {
   text-align: center;
-  min-height: 190px;
+  min-height: $footer-height;
   background-color: $navy;
   padding: 20px 0;
+  width: 100%;
+
   p.subtitle{
     @media screen and (max-width: 500px) {
       font-size: .75em;
@@ -137,7 +139,7 @@ a#skipnav {
   position: absolute;
   top: -40px;
   left: 0px;
-  color: #da141e;
+  color: $red;
   background: transparent;
   -webkit-transition: top 1s ease-out, background 1s linear;
   -moz-transition: top 1s ease-out, background 1s linear;
@@ -155,11 +157,12 @@ a#skipnav {
     }
 }
 
-#main-content {
+.main-content {
     outline: 0;
+    padding-bottom: $footer-height;
 }
 
-#headline{
+.headline{
   text-align: center;
   img{
     height: 35px;
@@ -171,7 +174,6 @@ a#skipnav {
     font-weight: 300;
     color: $gold;
     padding: 0px 5px 6px 5px;
-    // border-bottom: solid $black 1px;
     display: inline-block;
     margin: .5rem auto 3rem auto;
   }
@@ -206,4 +208,9 @@ a#skipnav {
   @media screen and (max-width: 1250px) {
     display: none;
   }
+}
+
+.wrapper {
+	min-height: 100%;
+	position:relative;
 }
