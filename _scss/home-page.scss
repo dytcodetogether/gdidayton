@@ -1,17 +1,7 @@
 .opener {
   text-align: center;
-  // background: url('photo3.png') no-repeat center center fixed;
-  background: url('../img/GDI_buttons_image3.jpg');
-  background-color: $paleblue;
-  background-attachment:fixed;
-  //background-repeat: no-repeat;
-  background-position: top center;
-  // background-size: Auto 500px;
-  //background-position: 30% 3%;
-  background-position: 50% 0%;
-  // -webkit-background-size: cover;
-  // background-size: cover;
-  // width: 100%;
+  background: url('../img/GDI_buttons_image3.jpg') $paleblue no-repeat center center fixed;
+  background-size: cover;
   height: 400px;
 
   @media screen and (max-width: 800px) {

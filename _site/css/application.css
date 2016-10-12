@@ -766,11 +766,8 @@ h3 [aria-expanded] {
 
 .opener {
   text-align: center;
-  background: url("../img/GDI_buttons_image3.jpg");
-  background-color: #e4e9e5;
-  background-attachment: fixed;
-  background-position: top center;
-  background-position: 50% 0%;
+  background: url("../img/GDI_buttons_image3.jpg") #e4e9e5 no-repeat center center fixed;
+  background-size: cover;
   height: 400px; }
   @media screen and (max-width: 800px) {
     .opener {
