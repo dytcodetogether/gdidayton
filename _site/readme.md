@@ -7,6 +7,8 @@ Girl Develop It is a nonprofit organization that exists to provide affordable an
 
 ## Quick Start
 
+This site uses the ruby gem Jekyll. If you haven't already, run:
+
 `gem install jekyll`
 
 To start the project, in your root folder, run:
