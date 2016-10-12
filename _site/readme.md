@@ -11,6 +11,7 @@ jekyll build
 ```
 jekyll serve
 ```
+<<<<<<< HEAD
 
 Navigating the files:
 
@@ -59,3 +60,5 @@ The css folder contains the application.scss that is used to compile application
 The img folder contains the images used on the site.
 
 The javascript folder contains some jquery and other javascript scripts for the site. Some are left over from forking the GDI national site, and do not do anything.
+=======
+>>>>>>> 354dfcff6608b44cdd6d7bcb75d4e8d9a4aa961d
