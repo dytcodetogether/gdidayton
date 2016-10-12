@@ -296,8 +296,7 @@ a#skipnav {
     transition: top 0.1s ease-in, background 0.5s linear; }
 
 .main-content {
-  outline: 0;
-  padding-bottom: 190px; }
+  outline: 0; }
 
 .headline {
   text-align: center; }
