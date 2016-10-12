@@ -7,8 +7,6 @@ Girl Develop It is a nonprofit organization that exists to provide affordable an
 
 ## Quick Start
 
-This site uses the ruby gem Jekyll. If you haven't already, run:
-
 `gem install jekyll`
 
 To start the project, in your root folder, run:
@@ -67,3 +65,5 @@ The css folder contains the application.scss that is used to compile application
 The img folder contains the images used on the site.
 
 The javascript folder contains some jquery and other javascript scripts for the site. Some are left over from forking the GDI national site, and do not do anything.
+=======
+>>>>>>> 354dfcff6608b44cdd6d7bcb75d4e8d9a4aa961d
