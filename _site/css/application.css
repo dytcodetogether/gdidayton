@@ -143,8 +143,8 @@ a {
 
 .button {
   display: inline-block;
-  font-weight: 400;
-  color: white;
+  font-weight: 700;
+  color: #2a4758;
   font-size: .8rem;
   text-transform: uppercase;
   letter-spacing: .14rem;
