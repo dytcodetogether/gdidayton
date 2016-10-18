@@ -314,7 +314,7 @@ a#skipnav {
 .underlined-headline {
   text-align: center; }
   .underlined-headline hr {
-    width: 400px;
+    width: 100%;
     border-top: 2px solid #d8ae64;
     border-bottom: 2px solid #d8ae64;
     margin-bottom: 30px; }
@@ -778,9 +778,7 @@ h3 [aria-expanded] {
     .opener {
       height: 200px;
       width: 100%;
-      background-position: 20% 0%;
-      background-size: auto 60%;
-      background-color: #F8F8F6; } }
+      background-position: 10% 0%; } }
   .opener h1 {
     color: white;
     font-size: 3.5rem;
@@ -880,7 +878,7 @@ h3 [aria-expanded] {
   .mission-statement h2 {
     margin-top: 60px; }
   .mission-statement hr {
-    width: 250px; }
+    width: 100%; }
   .mission-statement p {
     margin-top: 30px;
     margin-bottom: 15px; }
