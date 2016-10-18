@@ -120,7 +120,7 @@ p {
   p a {
     font-style: italic;
     text-decoration: underline;
-    color: #00838C; }
+    color: #01595F; }
     p a:hover {
       color: #f95a61; }
 
@@ -133,7 +133,7 @@ a {
 
 .subtitle {
   font-weight: 400;
-  color: #f95a61;
+  color: #01595F;
   font-style: italic;
   font-weight: 400;
   font-size: .85rem;
@@ -143,8 +143,8 @@ a {
 
 .button {
   display: inline-block;
-  font-weight: 400;
-  color: white;
+  font-weight: 700;
+  color: #2a4758;
   font-size: .8rem;
   text-transform: uppercase;
   letter-spacing: .14rem;
@@ -306,7 +306,7 @@ a#skipnav {
     margin: auto; }
   .headline h2 {
     font-weight: 300;
-    color: #d8ae64;
+    color: #2a4758;
     padding: 0px 5px 6px 5px;
     display: inline-block;
     margin: .5rem auto 3rem auto; }
@@ -472,7 +472,7 @@ a#skipnav {
   .classes:last-child {
     margin-right: 0; }
   .classes .read-more {
-    color: #00838C;
+    color: #01595F;
     font-style: italic; }
     .classes .read-more:hover {
       color: #f95a61; }

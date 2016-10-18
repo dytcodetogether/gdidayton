@@ -70,7 +70,7 @@ a {
 
 .subtitle {
  font-weight: 400;
- color: $pink;
+ color: $linkcolor;
  font-style: italic;
  font-weight: 400;
  font-size: .85rem;
@@ -81,8 +81,8 @@ a {
 
 .button {
  display: inline-block;
- font-weight: 400;
- color: white;
+ font-weight: 700;
+ color: $navy;
  font-size: .8rem;
  text-transform: uppercase;
  letter-spacing: .14rem;
