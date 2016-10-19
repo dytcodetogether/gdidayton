@@ -790,7 +790,8 @@ h3 [aria-expanded] {
     @media screen and (max-width: 500px) {
       .opener h1 {
         font-size: 2.5rem;
-        padding-top: 50px; } }
+        padding-top: 30px;
+        line-height: 4rem; } }
   .opener img {
     height: 80px;
     margin-bottom: -8px; }
