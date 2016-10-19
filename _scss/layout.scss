@@ -19,7 +19,7 @@
 
 header {
   background-color: $pink;
-  @media screen and (min-width: 793px) {
+  @media screen and (min-width: 768px) {
     height: 100px;
   }
   .logo {
@@ -27,7 +27,7 @@ header {
     width: 200px;
     padding: 15px 0;
     float: left;
-    @media screen and (min-width: 785px) {
+    @media screen and (min-width: 768px) {
       padding-top: 20px;
       margin: 0 auto;
     }
@@ -38,7 +38,7 @@ header {
   }
   nav{
       //float: right;
-    @media screen and (min-width: 785px) {
+    @media screen and (min-width: 768px) {
       float: right;
       margin: 0;
     }
@@ -46,13 +46,17 @@ header {
       text-align: right;
       padding-top: 15px;
       padding-right: 5px;
-      @media screen and (min-width: 785px) {
+      @media screen and (min-width: 768px) {
         float: left;
         text-align: center;
       }
     }
     li {
-      display: inline-block;
+      display: block;
+      @media screen and (min-width: 768px) {
+          display: inline-block;
+      }
+
     }
     i{
       font-size: 1.1rem;

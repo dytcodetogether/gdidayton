@@ -182,7 +182,7 @@ a {
 
 header {
   background-color: #f95a61; }
-  @media screen and (min-width: 793px) {
+  @media screen and (min-width: 768px) {
     header {
       height: 100px; } }
   header .logo {
@@ -190,14 +190,14 @@ header {
     width: 200px;
     padding: 15px 0;
     float: left; }
-    @media screen and (min-width: 785px) {
+    @media screen and (min-width: 768px) {
       header .logo {
         padding-top: 20px;
         margin: 0 auto; } }
     header .logo img {
       max-width: 100%;
       height: auto; }
-  @media screen and (min-width: 785px) {
+  @media screen and (min-width: 768px) {
     header nav {
       float: right;
       margin: 0; } }
@@ -205,12 +205,15 @@ header {
     text-align: right;
     padding-top: 15px;
     padding-right: 5px; }
-    @media screen and (min-width: 785px) {
+    @media screen and (min-width: 768px) {
       header nav ul {
         float: left;
         text-align: center; } }
   header nav li {
-    display: inline-block; }
+    display: block; }
+    @media screen and (min-width: 768px) {
+      header nav li {
+        display: inline-block; } }
   header nav i {
     font-size: 1.1rem; }
   header nav a {
@@ -770,7 +773,7 @@ h3 [aria-expanded] {
   background: url("../img/GDI_buttons_image3.jpg") #e4e9e5 no-repeat center center fixed;
   background-size: cover;
   height: 400px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .opener {
       height: 300px;
       width: 100%;
@@ -792,6 +795,9 @@ h3 [aria-expanded] {
         font-size: 2.5rem;
         padding-top: 30px;
         line-height: 4rem; } }
+    @media screen and (max-width: 768px) {
+      .opener h1 {
+        padding-top: 100px; } }
   .opener img {
     height: 80px;
     margin-bottom: -8px; }
