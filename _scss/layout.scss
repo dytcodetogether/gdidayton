@@ -6,7 +6,7 @@
   max-width: 100%;
   margin: auto;
   @media screen and (max-width: 964px) {
-    padding: 0 25px;
+    //padding: 0 25px;
   }
 }
 
@@ -25,10 +25,11 @@ header {
   .logo {
     display: block;
     width: 200px;
-    margin: 0 auto;
-    padding-top: 20px;
+    padding: 15px 0;
+    float: left;
     @media screen and (min-width: 785px) {
-      float: left;
+      padding-top: 20px;
+      margin: 0 auto;
     }
     img {
       max-width: 100%;
@@ -36,14 +37,18 @@ header {
     }
   }
   nav{
+      //float: right;
     @media screen and (min-width: 785px) {
       float: right;
       margin: 0;
     }
     ul {
-      text-align: center;
+      text-align: right;
+      padding-top: 15px;
+      padding-right: 5px;
       @media screen and (min-width: 785px) {
         float: left;
+        text-align: center;
       }
     }
     li {
@@ -59,7 +64,7 @@ header {
       font-weight: 300;
       font-size: 1.1rem;
       letter-spacing: .05rem;
-      padding: 1.5rem;
+      padding: 0.75rem;
       margin-bottom: 0em;
       @media screen and (min-width: 785px) {
         padding: 3rem 1rem 3rem 1rem;
