@@ -4,7 +4,7 @@
   background-size: cover;
   height: 400px;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     height: 300px;
     width: 100%;
     background-position: 30% 0%;
@@ -23,7 +23,11 @@
     width: 100%;
     @media screen and (max-width: 500px) {
       font-size: 2.5rem;
-      padding-top: 50px;
+      padding-top: 30px;
+      line-height: 4rem;
+    }
+    @media screen and (max-width: 768px) {
+        padding-top: 100px;
     }
   }
     img {
