@@ -6,7 +6,7 @@
   max-width: 100%;
   margin: auto;
   @media screen and (max-width: 964px) {
-    padding: 0 25px;
+    //padding: 0 25px;
   }
 }
 
@@ -19,16 +19,17 @@
 
 header {
   background-color: $pink;
-  @media screen and (min-width: 793px) {
+  @media screen and (min-width: 768px) {
     height: 100px;
   }
   .logo {
     display: block;
     width: 200px;
-    margin: 0 auto;
-    padding-top: 20px;
-    @media screen and (min-width: 785px) {
-      float: left;
+    padding: 15px 0;
+    float: left;
+    @media screen and (min-width: 768px) {
+      padding-top: 20px;
+      margin: 0 auto;
     }
     img {
       max-width: 100%;
@@ -36,18 +37,26 @@ header {
     }
   }
   nav{
-    @media screen and (min-width: 785px) {
+      //float: right;
+    @media screen and (min-width: 768px) {
       float: right;
       margin: 0;
     }
     ul {
-      text-align: center;
-      @media screen and (min-width: 785px) {
+      text-align: right;
+      padding-top: 15px;
+      padding-right: 5px;
+      @media screen and (min-width: 768px) {
         float: left;
+        text-align: center;
       }
     }
     li {
-      display: inline-block;
+      display: block;
+      @media screen and (min-width: 768px) {
+          display: inline-block;
+      }
+
     }
     i{
       font-size: 1.1rem;
@@ -59,7 +68,7 @@ header {
       font-weight: 300;
       font-size: 1.1rem;
       letter-spacing: .05rem;
-      padding: 1.5rem;
+      padding: 0.75rem;
       margin-bottom: 0em;
       @media screen and (min-width: 785px) {
         padding: 3rem 1rem 3rem 1rem;
