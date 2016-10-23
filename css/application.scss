@@ -2,20 +2,16 @@
 # This is the Front Matter block
 ---
 
+//Libraries
+@import "libraries/reset.scss";
+@import "libraries/bourbon/bourbon";
+@import "libraries/neat/neat";
 
-@import "reset.scss";
-@import "bourbon/bourbon";
-@import "neat/neat";
+//Styles
 @import "base.scss";
-@import "typography.scss";
 @import "layout.scss";
 @import "modules.scss";
-@import "chapters.scss";
-@import "materials.scss";
-@import "home-page.scss";
-@import "about.scss";
-@import "sponsors.scss";
-@import "errors.scss";
+@import "states.scss";
 
 
 

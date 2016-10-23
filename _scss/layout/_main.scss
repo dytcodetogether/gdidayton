@@ -1,0 +1,120 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid $pink;
+  border-bottom: 2px solid $pink;
+  background: transparent;
+  height: 6px;
+}
+
+.button {
+ display: inline-block;
+ font-weight: 700;
+ color: $navy;
+ font-size: .8rem;
+ text-transform: uppercase;
+ letter-spacing: .14rem;
+ background-color: $gold;
+ padding: .5rem 1rem;
+ border: none;
+ &:hover{
+  background-color: $black;
+  color: $blush;
+  }
+ &.donate-button {
+    border: 0;
+    background: $pink;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
+}
+
+.container {
+  @include outer-container;
+  width: 965px;
+  max-width: 100%;
+  margin: auto;
+}
+
+%dashed-border {
+  border-bottom: 1px dashed $pink;
+  padding-bottom: .2rem;
+}
+
+.main-container {
+  padding-top: 85px;
+  @include media($breakpoint-mobile) {
+    padding: 0px 25px;
+  }
+}
+
+.main-content {
+    outline: 0;
+}
+
+.headline{
+  text-align: center;
+  img{
+    height: 35px;
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    @extend %dashed-border;
+    font-weight: 300;
+    color: $navy;
+    padding: 0px 5px 6px 5px;
+    display: inline-block;
+    margin: .5rem auto 3rem auto;
+  }
+}
+
+.underlined-headline {
+  text-align: center;
+  hr {
+    width: 100%;
+    border-top: 2px solid $gold;
+    border-bottom: 2px solid $gold;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    color: $black;
+    font-weight: 300;
+    letter-spacing: .1rem;
+  }
+  .subtitle {
+    margin-top: -20px;
+    a {
+      color: $pink;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
+.fork-me {
+  @media screen and (max-width: 1250px) {
+    display: none;
+  }
+}
+
+.wrapper {
+	min-height: 100%;
+	position:relative;
+}

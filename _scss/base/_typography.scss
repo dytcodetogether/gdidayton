@@ -1,3 +1,8 @@
+body {
+    font-family: $body-font-stack;
+    font-size: 100%; //16px
+}
+
 h1,
 h2,
 h3,
@@ -37,11 +42,6 @@ h3{
   }
 }
 
-%dashed-border {
-  border-bottom: 1px dashed $pink;
-  padding-bottom: .2rem;
-}
-
 p{
   font-size: 1.025rem;
   font-weight: 300;
@@ -77,28 +77,4 @@ a {
  text-transform: none;
  letter-spacing: .06rem;
  margin: .35rem 0rem;
-}
-
-.button {
- display: inline-block;
- font-weight: 700;
- color: $navy;
- font-size: .8rem;
- text-transform: uppercase;
- letter-spacing: .14rem;
- background-color: $gold;
- padding: .5rem 1rem;
- border: none;
- &:hover{
-  background-color: $black;
-  color: $blush;
-  }
- &.donate-button {
-    border: 0;
-    background: $pink;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    margin: 20px auto;
-    cursor: pointer;
-  }
 }
