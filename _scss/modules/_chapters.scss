@@ -1,6 +1,6 @@
 .chapter-aside {
  text-align: center;
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: $mobile-max-width) {
     @include span-columns(4);
   }
   .state-container-aside{
@@ -20,7 +20,7 @@
       &:hover{
         opacity: 1;
         -webkit-filter: grayscale(0%);
-      }      
+      }
     }
     .subtitle {
       margin-bottom: 1.5em;
@@ -29,7 +29,7 @@
       &:hover{
         opacity: 1;
         -webkit-filter: grayscale(0%);
-      }      
+      }
     }
   }
   hr{
@@ -51,7 +51,7 @@
 }
 
 #content-section{
- @media screen and (min-width: 500px) {
+ @include $breakpoint-mobile {
    @include span-columns(8);
  }
  margin-bottom: 80px;
@@ -61,7 +61,7 @@
   @include span-columns(8 of 8);
   @include omega();
 }
-@media screen and (max-width: 500px) {
+@include $breakpoint-mobile {
   .show {
     display: block;
   }

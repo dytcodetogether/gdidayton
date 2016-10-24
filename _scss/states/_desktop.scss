@@ -1,0 +1,30 @@
+//The stylesheets for this project are structured using SMACSS (Scalable and Modular Architecture for CSS)
+//https://smacss.com
+
+//STATES: state-based changes
+
+@include $breakpoint-widescreen {
+
+    //layout/header.scss
+    header {
+        .logo {
+            padding-top: 20px;
+            margin: 0 auto;
+        }
+        nav {
+            float: right;
+            margin: 0;
+            ul {
+                float: left;
+                text-align: center;
+            }
+            li {
+                display: inline-block;
+            }
+            a {
+                padding: 3rem 1rem 3rem 1rem;
+                
+            }
+        }
+    }
+}

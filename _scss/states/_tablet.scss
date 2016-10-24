@@ -1,0 +1,25 @@
+//The stylesheets for this project are structured using SMACSS (Scalable and Modular Architecture for CSS)
+//https://smacss.com
+
+//STATES: state-based changes
+
+@include $breakpoint-tablet {
+
+    //layout/main.scss
+    .main-container {
+        padding-top: 85px;
+    }
+
+    //layout/header.scss
+    header {
+        height: 100px;
+        nav {
+            a {
+                &:hover {
+                    background-color: $navy;
+                    color: $blush;
+                }
+            }
+        }
+    }
+}

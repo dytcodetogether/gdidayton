@@ -60,7 +60,7 @@
     margin-left: 8.5298%;
     color: #282828;
     color: $black;
-    @media screen and (max-width: 500px){
+    @include $breakpoint-mobile {
       float: left;
       display: block;
       margin-right: 2.35765%;
@@ -100,7 +100,7 @@
 .profile-left:last-child {
   margin-right: 0;
 }
-@media screen and (max-width: 500px) {
+@include $breakpoint-mobile {
   /* line 92, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
   .profile-left {
     float: left;
@@ -175,7 +175,7 @@
 .profile-right:last-child {
   margin-right: 0;
 }
-@media screen and (max-width: 500px) {
+@include $breakpoint-mobile {
   /* line 98, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
   .profile-right {
     float: left;
@@ -231,7 +231,7 @@
 .profile-right:last-child {
   margin-right: 0;
 }
-@media screen and (max-width: 500px) {
+@include $breakpoint-mobile {
   /* line 98, /Users/kcjones-evans/gdi-new-site/app/assets/stylesheets/about.css.scss */
   .profile-right {
     padding: 0;

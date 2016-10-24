@@ -18,10 +18,11 @@ $mauve: #a05258;
 //Breakpoints
 $mobile-max-width: 500px;
 $tablet-max-width: 768px;
-$widescreen-min-width: 769px;
+$desktop-min-width: 769px;
 
 $breakpoint-mobile: new-breakpoint(max width $mobile-max-width);
-$breakpoint-tablet: new-breakpoint(min-width 501px max-width $tablet-max-width);
-$breakpoint-widescreen: new-breakpoint(min-width $widescreen-min-width);
+$breakpoint-tablet: new-breakpoint(min-width 501px);
+$breakpoint-tablet-min-max: new-breakpoint(min-width 501px max-width $tablet-max-width);
+$breakpoint-desktop: new-breakpoint(min-width $widescreen-min-width);
 
 //
