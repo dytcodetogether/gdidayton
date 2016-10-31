@@ -742,6 +742,9 @@ h3 [aria-expanded] {
       color: #2d2e2e; }
       .material-container h3 a:hover {
         color: #f95a61; }
+  @media screen and (max-width: 420px) {
+    .material-container {
+      width: 100%; } }
 
 .material-icon {
   float: left;
