@@ -22,4 +22,43 @@
             }
         }
     }
+
+    //layout/footer.scss
+    footer {
+        p.subtitle {
+            font-size: 1em;
+        }
+    }
+
+    //modules/about.scss
+    .mission {
+        @include span-columns(10);
+        @include shift(1);
+    }
+
+    .vision {
+        @include span-columns(5);
+        margin: 0px 10%;
+    }
+
+    .values {
+        @include span-columns(5);
+        margin: 0px 10%;
+    }
+
+    .support, .story {
+        p {
+            width: 82.94039%;
+            margin-left: 8.5298%;
+        }
+    }
+
+    .profile-left {
+        width: 48.82117%;
+    }
+
+    .profile-right {
+        width: 48.82117%;
+        padding-left: 12px;
+    }
 }
