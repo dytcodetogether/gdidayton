@@ -25,23 +25,13 @@ layout: default
   <section class="map">
     <div class="container">
     	<div class="underlined-headline">
-        <h2>We are coding now in the Gem City!</h2>
+        <h2>We are coding now in the Gem City</h2>
         <hr>
-        <a class=" subtitle" target="_blank" href="http://www.meetup.com/Girl-Develop-It-Dayton/">Find the next GDI event!</a>
+        <a class=" subtitle" target="_blank" href="http://www.meetup.com/Girl-Develop-It-Dayton/">Upcoming events!</a>
         </div>
       </div>
-      <div class="container" style="padding:1em">
-        <h3>Upcoming events</h3>
-	     
-	  <p>
-	   March 18th & 25th <a href="http://www.meetup.com/Girl-Develop-It-Dayton/events/234840799/"> Into to HTML & CSS </a>
-	  </p>
-      </div>
-
-
-
-
+      <div class="container event-list">
+	      {% include events.html %}
   </section>
-
     </div>
 </section>
