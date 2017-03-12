@@ -68,6 +68,16 @@
             padding-top: 100px;
         }
     }
+
+    //modules/materials.scss
+    .intro {
+        @include span-columns(10);
+        @include shift(1);
+    }
+
+    .content-section {
+        @include span-columns(8);
+    }
 }
 
 @include $breakpoint-tablet-min-max {
