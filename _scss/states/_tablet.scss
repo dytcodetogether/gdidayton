@@ -61,4 +61,20 @@
         width: 48.82117%;
         padding-left: 12px;
     }
+
+    //modules/home-page.scss
+    .opener {
+        h1 {
+            padding-top: 100px;
+        }
+    }
+}
+
+@include $breakpoint-tablet-min-max {
+    //modules/home-page.scss
+    .opener {
+        height: 300px;
+        width: 100%;
+        background-position: 30% 0%;
+    }
 }
