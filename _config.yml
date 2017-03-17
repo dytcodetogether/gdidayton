@@ -41,3 +41,7 @@ permalink: pretty
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir: /_scss
+
+# Google tracking id to track your visitors
+
+google-tracking-id: "UA-92667689-1"
