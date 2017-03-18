@@ -939,6 +939,83 @@ h3 [aria-expanded] {
     color: #d8ae64;
     margin-bottom: 20px; }
 
+.event-list {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .event-list::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+article.card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  float: none;
+  height: 400px;
+  text-align: left;
+  border-radius: 3px;
+  margin: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
+  article.card:last-child {
+    margin-right: 0; }
+  article.card .thumb {
+    width: auto;
+    height: 260px;
+    background: no-repeat center;
+    background-size: cover;
+    border-radius: 3px; }
+  article.card .infos {
+    width: auto;
+    height: 40%;
+    position: relative;
+    padding: 14px 24px;
+    background: #fff; }
+    article.card .infos .title {
+      position: relative;
+      margin: 10px 0;
+      letter-spacing: 3px;
+      color: #152536;
+      text-transform: uppercase;
+      text-shadow: 0 0 0px #32577f; }
+    article.card .infos .date {
+      margin-bottom: 5px;
+      color: rgba(21, 37, 54, 0.7);
+      font-family: "Grotesque", sans-serif; }
+    article.card .infos .details {
+      position: absolute;
+      left: 0;
+      left: 0;
+      bottom: 0;
+      margin: 10px 0;
+      padding: 20px 24px;
+      letter-spacing: 1px;
+      color: #4e958b;
+      font-family: "Grotesque Black", sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer; }
+  @media screen and (min-width: 600px) {
+    article.card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      float: none; }
+      article.card:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 950px) {
+    article.card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 44.55627%; }
+      article.card:last-child {
+        margin-right: 0; } }
+
 .mission {
   float: left;
   display: block;
@@ -959,7 +1036,7 @@ h3 [aria-expanded] {
       .mission:last-child {
         margin-right: 0; } }
   .mission p {
-    color: #282828; }
+    color: #000; }
 
 .vision {
   float: left;
@@ -1023,7 +1100,7 @@ h3 [aria-expanded] {
     width: 82.94039%;
     margin-left: 8.5298%;
     color: #282828;
-    color: #282828; }
+    color: #000; }
     @media screen and (max-width: 500px) {
       .support p, .story p {
         float: left;
@@ -1273,7 +1350,7 @@ h3 [aria-expanded] {
   margin-bottom: 20px;
   margin-top: 20px; }
 .sponsors p, .partners p {
-  color: #282828; }
+  color: #000; }
 
 .sponsor-logos, .partner-logos {
   text-align: center; }
