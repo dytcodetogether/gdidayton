@@ -298,11 +298,179 @@ header {
     font-weight: 300;
     font-size: 1.1rem;
     letter-spacing: .05rem;
+<<<<<<< HEAD
     padding: 0.75rem;
     margin-bottom: 0em; }
     header nav a.active-nav {
       background-color: #282828;
       color: #fbcfc6; }
+=======
+    font-weight: 300; }
+    .state-container h3 a {
+      color: #2d2e2e; }
+      .state-container h3 a:hover {
+        color: #f95a61; }
+
+.closed {
+  display: inline-block;
+  background: #d8ae64;
+  color: white;
+  line-height: 1;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin: -4px 1em 0; }
+
+/* 3. Progressive collapsibles */
+.collapsible h3 {
+  color: #282828;
+  padding: 15px 0 7px 0;
+  border-bottom: 1px dashed #f95a61;
+  padding-bottom: .2rem; }
+.collapsible h3 + [aria-hidden] {
+  display: none; }
+.collapsible h3 + [aria-hidden="false"] {
+  display: block; }
+.collapsible a {
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: .05rem;
+  font-weight: 300;
+  color: #f95a61;
+  font-style: italic;
+  font-size: medium; }
+
+h3 [aria-expanded] {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none; }
+
+.intro {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  text-align: center;
+  margin-bottom: 50px; }
+  .intro:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 500px) {
+    .intro {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%; }
+      .intro:last-child {
+        margin-right: 0; } }
+  .intro p {
+    color: #282828; }
+
+.content-section {
+  margin-bottom: 80px; }
+  @media screen and (min-width: 500px) {
+    .content-section {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .content-section:last-child {
+        margin-right: 0; } }
+
+.headline {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  margin-right: 0; }
+  .headline:last-child {
+    margin-right: 0; }
+
+@media screen and (max-width: 500px) {
+  .show {
+    display: block; }
+
+  .hide {
+    display: none; } }
+.materials {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 20px; }
+  .materials:last-child {
+    margin-right: 0; }
+  .materials .read-more {
+    color: #d8ae64;
+    font-style: italic; }
+    .materials .read-more:hover {
+      color: #f95a61; }
+  .materials .button {
+    margin: 10px 0 55px 0;
+    background-color: #e4e9e5;
+    color: #f95a61; }
+    .materials .button:hover {
+      background-color: #f95a61;
+      color: white; }
+  .materials .uhOh {
+    text-align: center; }
+
+.material-index {
+  padding-top: 50px; }
+
+.material-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  background-color: #e4e9e5;
+  padding: 10px;
+  margin-bottom: 2em;
+  -moz-transition: background, .5s;
+  -webkit-transition: background, .5s;
+  transition: background, .5s; }
+  .material-container:last-child {
+    margin-right: 0; }
+  .material-container:nth-child(2n) {
+    margin-right: 0; }
+  .material-container:nth-child(2n+1) {
+    clear: left; }
+  .material-container:hover {
+    background-color: #fbcfc6; }
+  .material-container h2 {
+    margin: 10px 0 0 0; }
+  .material-container hr {
+    width: 55%; }
+  .material-container img {
+    float: left; }
+  .material-container h3 {
+    text-transform: none;
+    letter-spacing: .08rem;
+    font-weight: 300; }
+    .material-container h3 a {
+      color: #2d2e2e; }
+      .material-container h3 a:hover {
+        color: #f95a61; }
+  @media screen and (max-width: 420px) {
+    .material-container {
+      width: 100%; } }
+
+.material-icon {
+  float: left;
+  width: auto;
+  margin-right: 1em; }
+>>>>>>> gdidayton/gh-pages
 
 a#skipnav {
   padding: 6px;
@@ -375,10 +543,22 @@ footer {
     color: white;
     font-weight: 400;
     height: auto;
+<<<<<<< HEAD
     width: 100%;
     font-size: 2.5rem;
     padding-top: 30px;
     line-height: 4rem; }
+=======
+    width: 100%; }
+    @media screen and (max-width: 500px) {
+      .opener h1 {
+        font-size: 2.5rem;
+        padding-top: 30px;
+        line-height: 4rem; } }
+    @media screen and (min-width: 501px) and (max-width: 768px) {
+      .opener h1 {
+        padding-top: 100px; } }
+>>>>>>> gdidayton/gh-pages
   .opener img {
     height: 80px;
     margin-bottom: -8px; }
@@ -517,6 +697,83 @@ footer {
     color: #d8ae64;
     margin-bottom: 20px; }
 
+.event-list {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  .event-list::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+article.card {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  float: none;
+  height: 400px;
+  text-align: left;
+  border-radius: 3px;
+  margin: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
+  article.card:last-child {
+    margin-right: 0; }
+  article.card .thumb {
+    width: auto;
+    height: 260px;
+    background: no-repeat center;
+    background-size: cover;
+    border-radius: 3px; }
+  article.card .infos {
+    width: auto;
+    height: 40%;
+    position: relative;
+    padding: 14px 24px;
+    background: #fff; }
+    article.card .infos .title {
+      position: relative;
+      margin: 10px 0;
+      letter-spacing: 3px;
+      color: #152536;
+      text-transform: uppercase;
+      text-shadow: 0 0 0px #32577f; }
+    article.card .infos .date {
+      margin-bottom: 5px;
+      color: rgba(21, 37, 54, 0.7);
+      font-family: "Grotesque", sans-serif; }
+    article.card .infos .details {
+      position: absolute;
+      left: 0;
+      left: 0;
+      bottom: 0;
+      margin: 10px 0;
+      padding: 20px 24px;
+      letter-spacing: 1px;
+      color: #4e958b;
+      font-family: "Grotesque Black", sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer; }
+  @media screen and (min-width: 600px) {
+    article.card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 57.35098%;
+      float: none; }
+      article.card:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 950px) {
+    article.card {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 44.55627%; }
+      article.card:last-child {
+        margin-right: 0; } }
+
 .mission {
   float: left;
   display: block;
@@ -528,7 +785,7 @@ footer {
   .mission:last-child {
     margin-right: 0; }
   .mission p {
-    color: #282828; }
+    color: #000; }
 
 .vision {
   float: left;
@@ -572,7 +829,18 @@ footer {
     width: 100%;
     margin-left: 0%;
     color: #282828;
+<<<<<<< HEAD
     color: #282828; }
+=======
+    color: #000; }
+    @media screen and (max-width: 500px) {
+      .support p, .story p {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        margin-left: 0%; } }
+>>>>>>> gdidayton/gh-pages
 
 .support p:last-child, .story p:last-child {
   margin-right: 0; }
@@ -844,7 +1112,7 @@ footer {
   margin-bottom: 20px;
   margin-top: 20px; }
 .sponsors p, .partners p {
-  color: #282828; }
+  color: #000; }
 
 .sponsor-logos, .partner-logos {
   text-align: center; }
