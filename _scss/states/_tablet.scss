@@ -3,7 +3,7 @@
 
 //STATES: state-based changes
 
-@include $breakpoint-tablet {
+@include breakpoint-tablet {
 
     //layout/main.scss
     .main-container {
@@ -37,13 +37,13 @@
     }
 
     .vision {
-        @include span-columns(5);
-        margin: 0px 10%;
+        @include span-columns(10);
+        @include shift(1);
     }
 
     .values {
-        @include span-columns(5);
-        margin: 0px 10%;
+        @include span-columns(10);
+        @include shift(1);
     }
 
     .support, .story {
@@ -80,7 +80,7 @@
     }
 }
 
-@include $breakpoint-tablet-min-max {
+@include breakpoint-tablet-min-max {
     //modules/home-page.scss
     .opener {
         height: 300px;
