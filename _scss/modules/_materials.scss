@@ -25,6 +25,7 @@
 .hide {
     display: none;
 }
+
 .materials {
     @include span-columns(8 of 8);
     @include omega();
@@ -37,6 +38,7 @@
             color: $pink;
         }
     }
+
     .button {
         margin: 10px 0 55px 0;
         background-color: $paleblue;
@@ -103,14 +105,14 @@
 
 .class-slides, .practice-files {
     h3 {
-        line-height:3rem;
+        line-height: 3rem;
         margin-top: .5em;
     }
 
     a {
         color: $gray;
         &:hover {
-            color:$pink;
+            color: $pink;
         }
     }
 
@@ -127,7 +129,7 @@
     a {
         color: $white;
     }
-    
+
     img {
         vertical-align:middle;
     }
