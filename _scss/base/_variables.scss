@@ -20,9 +20,28 @@ $mobile-max-width: 500px;
 $tablet-max-width: 768px;
 $desktop-min-width: 769px;
 
-$breakpoint-mobile: new-breakpoint(max width $mobile-max-width);
-$breakpoint-tablet: new-breakpoint(min-width 501px);
-$breakpoint-tablet-min-max: new-breakpoint(min-width 501px max-width $tablet-max-width);
-$breakpoint-desktop: new-breakpoint(min-width $widescreen-min-width);
+@mixin breakpoint-mobile{
+    @media (max-width: #{$mobile-max-width}) {
+        @content;
+    }
+}
+
+@mixin breakpoint-tablet {
+    @media (min-width: #{$mobile-max-width + 1}) {
+        @content;
+    }
+}
+
+@mixin breakpoint-tablet-min-max {
+    @media (min-width: #{$mobile-max-width + 1}) and (max-width: #{$tablet-max-width}) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop {
+    @media (min-width: #{$desktop-min-width}) {
+        @content;
+    }
+}
 
 //
