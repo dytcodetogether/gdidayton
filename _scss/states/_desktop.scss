@@ -37,4 +37,9 @@
             padding-top: 150px;
         }
     }
+
+    //modules/events.scss
+    article.card {
+        @include span-columns(5.5);
+    }
 }

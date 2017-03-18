@@ -78,6 +78,24 @@
     .content-section {
         @include span-columns(8);
     }
+
+    //modules/events.scss
+    article.card {
+        @include span-columns(7);
+		float: none;
+    }
+
+    //modules/errors.scss
+    .errors {
+        height: 400px;
+        background-position: top center;
+        background-color: $paleblue;
+
+        h1 {
+            font-size: 3.5rem;
+            padding-top: 100px;
+        }
+    }
 }
 
 @include breakpoint-tablet-min-max {
