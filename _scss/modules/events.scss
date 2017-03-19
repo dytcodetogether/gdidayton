@@ -1,9 +1,8 @@
 .event-list {
-	@include outer-container;
+	@include outer-container(100%);
 }
 
 article.card {
-	@include span-columns(4);
 	float: none;
 	height: $card-height;
 	text-align:left;
