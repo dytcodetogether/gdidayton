@@ -193,7 +193,7 @@ hr {
   padding-bottom: .2rem; }
 
 .main-container {
-  padding: 0px 25px; }
+  padding: 20px 25px 0 25px; }
 
 .main-content {
   outline: 0; }
@@ -524,7 +524,7 @@ footer {
   margin-right: 2.35765%;
   width: 100%;
   text-align: center;
-  margin: 20px 0 50px 0; }
+  margin-bottom: 50px; }
   .mission:last-child {
     margin-right: 0; }
   .mission p {
@@ -786,6 +786,9 @@ footer {
   .sponsor-logos img, .partner-logos img {
     margin: 1em;
     max-width: 100%; }
+
+.supporters p {
+  text-align: center; }
 
 .errors {
   text-align: center;

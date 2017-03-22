@@ -1,7 +1,7 @@
 .mission {
     @include span-columns(12);
     text-align: center;
-    margin: 20px 0 50px 0;
+    margin-bottom: 50px;
 
     p {
         color: $black;
