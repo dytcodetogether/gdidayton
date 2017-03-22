@@ -723,7 +723,7 @@ footer {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%;
+  width: 100%;
   background-color: #e4e9e5;
   padding: 10px;
   margin-bottom: 2em;
@@ -732,10 +732,6 @@ footer {
   transition: background, .5s; }
   .material-container:last-child {
     margin-right: 0; }
-  .material-container:nth-child(2n) {
-    margin-right: 0; }
-  .material-container:nth-child(2n+1) {
-    clear: left; }
   .material-container:hover {
     background-color: #fbcfc6; }
   .material-container h2 {

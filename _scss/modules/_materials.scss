@@ -59,8 +59,7 @@
     padding-top: 50px;
 }
 .material-container{
-    @include span-columns(6);
-    @include omega(2n);
+    @include span-columns(12);
     background-color:$paleblue;
     padding:10px;
     margin-bottom: 2em;
@@ -120,6 +119,7 @@
         padding: .5em 0 ;
     }
 }
+
 .github-fork {
     background-color: $pink;
     padding: .5em;
