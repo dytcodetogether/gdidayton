@@ -13,8 +13,24 @@
     //layout/header.scss
     header {
         height: 100px;
+
+        .logo {
+            padding-top: 20px;
+            margin: 0 auto;
+        }
+
         nav {
+            float: right;
+            margin: 0;
+            ul {
+                float: left;
+                text-align: center;
+            }
+            li {
+                display: inline-block;
+            }
             a {
+                padding: 3rem 1rem 3rem 1rem;
                 &:hover {
                     background-color: $navy;
                     color: $blush;

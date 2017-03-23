@@ -876,9 +876,22 @@ article.card {
 
   header {
     height: 100px; }
-    header nav a:hover {
-      background-color: #2a4758;
-      color: #fbcfc6; }
+    header .logo {
+      padding-top: 20px;
+      margin: 0 auto; }
+    header nav {
+      float: right;
+      margin: 0; }
+      header nav ul {
+        float: left;
+        text-align: center; }
+      header nav li {
+        display: inline-block; }
+      header nav a {
+        padding: 3rem 1rem 3rem 1rem; }
+        header nav a:hover {
+          background-color: #2a4758;
+          color: #fbcfc6; }
 
   footer p.subtitle {
     font-size: 1em; }
@@ -963,20 +976,6 @@ article.card {
     width: 100%;
     background-position: 30% 0%; } }
 @media (min-width: 901px) {
-  header .logo {
-    padding-top: 20px;
-    margin: 0 auto; }
-  header nav {
-    float: right;
-    margin: 0; }
-    header nav ul {
-      float: left;
-      text-align: center; }
-    header nav li {
-      display: inline-block; }
-    header nav a {
-      padding: 3rem 1rem 3rem 1rem; }
-
   .opener {
     height: 400px; }
     .opener h1 {

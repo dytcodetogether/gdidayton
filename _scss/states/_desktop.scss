@@ -5,29 +5,6 @@
 
 @include breakpoint-desktop {
 
-    //layout/header.scss
-    header {
-        .logo {
-            padding-top: 20px;
-            margin: 0 auto;
-        }
-        nav {
-            float: right;
-            margin: 0;
-            ul {
-                float: left;
-                text-align: center;
-            }
-            li {
-                display: inline-block;
-            }
-            a {
-                padding: 3rem 1rem 3rem 1rem;
-
-            }
-        }
-    }
-
     //modules/home-page.scss
     .opener {
         height: 400px;
