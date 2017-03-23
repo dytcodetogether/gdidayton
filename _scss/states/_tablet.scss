@@ -97,7 +97,8 @@
 
     //modules/events.scss
     article.card {
-        @include span-columns(7);
+        @include span-columns(8);
+        @include shift(2);
 		float: none;
     }
 

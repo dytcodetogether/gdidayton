@@ -836,7 +836,7 @@ article.card {
   article.card .thumb {
     width: auto;
     height: 260px;
-    background: no-repeat center;
+    background: no-repeat center center;
     background-size: cover;
     border-radius: 3px; }
   article.card .infos {
@@ -958,7 +958,8 @@ article.card {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%;
+    width: 65.88078%;
+    margin-left: 17.05961%;
     float: none; }
     article.card:last-child {
       margin-right: 0; }
