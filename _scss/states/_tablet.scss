@@ -96,10 +96,11 @@
     }
 
     //modules/events.scss
-    article.card {
-        @include span-columns(8);
-        @include shift(2);
-		float: none;
+    .event-list {
+        article.card {
+            width: 50%;
+            margin: 25px;
+        }
     }
 
     //modules/errors.scss

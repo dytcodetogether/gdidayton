@@ -54,10 +54,13 @@ $desktop-min-width: 901px;
 }
 
 //miscellaneous
-$card-width:400px;
-$card-height:400px;
+$card-width-small: 310px;
+$card-height-small: 310px;
+$card-width-large:400px;
+$card-height-large:400px;
 
-$thumb-height:260px;
+$thumb-height-small:180px;
+$thumb-height-large:260px;
 
 $border-radius:3px;
 $box-shadow:0 1px 4px rgba($black, .3);

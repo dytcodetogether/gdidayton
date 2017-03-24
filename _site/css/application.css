@@ -817,58 +817,43 @@ footer {
       color: #F95A61; }
 
 .event-list {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-  .event-list::after {
-    clear: both;
-    content: "";
-    display: block; }
-
-article.card {
-  float: none;
-  height: 400px;
-  text-align: left;
-  border-radius: 3px;
-  margin: 25px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  overflow: hidden; }
-  article.card .thumb {
-    width: auto;
-    height: 260px;
-    background: no-repeat center center;
-    background-size: cover;
-    border-radius: 3px; }
-  article.card .infos {
-    width: auto;
-    height: 40%;
-    position: relative;
-    padding: 14px 24px;
-    background: #fff; }
-    article.card .infos .title {
-      position: relative;
-      margin: 10px 0;
-      letter-spacing: 3px;
-      color: #152536;
-      text-transform: uppercase;
-      text-shadow: 0 0 0px #32577f; }
-    article.card .infos .date {
-      margin-bottom: 5px;
-      color: rgba(21, 37, 54, 0.7);
-      font-family: "Grotesque", sans-serif; }
-    article.card .infos .details {
-      position: absolute;
-      left: 0;
-      left: 0;
-      bottom: 0;
-      margin: 10px 0;
-      padding: 20px 24px;
-      letter-spacing: 1px;
-      color: #4e958b;
-      font-family: "Grotesque Black", sans-serif;
-      text-transform: uppercase;
-      text-decoration: none;
-      cursor: pointer; }
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .event-list article.card {
+    width: 80%;
+    text-align: left;
+    border-radius: 3px;
+    margin: 25px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden; }
+    .event-list article.card .thumb {
+      width: auto;
+      height: 200px;
+      background: no-repeat center;
+      background-size: cover;
+      border-radius: 3px; }
+    .event-list article.card .infos {
+      padding: 14px 24px;
+      background: #fff; }
+      .event-list article.card .infos .title {
+        margin: 10px 0;
+        letter-spacing: 3px;
+        color: #152536;
+        text-transform: uppercase;
+        text-shadow: 0 0 0px #32577f; }
+      .event-list article.card .infos .date {
+        margin: 5px 0 35px 0;
+        color: rgba(21, 37, 54, 0.7);
+        font-family: "Grotesque", sans-serif; }
+      .event-list article.card .infos .details {
+        letter-spacing: 1px;
+        color: #4e958b;
+        font-family: "Grotesque Black", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer; }
 
 @media (min-width: 601px) {
   .main-container {
@@ -954,15 +939,9 @@ article.card {
     .content-section:last-child {
       margin-right: 0; }
 
-  article.card {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%;
-    float: none; }
-    article.card:last-child {
-      margin-right: 0; }
+  .event-list article.card {
+    width: 50%;
+    margin: 25px; }
 
   .errors {
     height: 400px;
