@@ -70,12 +70,23 @@
     }
 
     .profile-left {
-        width: 48.82117%;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+
+        img {
+            width: 35%;
+        }
     }
 
     .profile-right {
-        width: 48.82117%;
-        padding-left: 12px;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+
+        img {
+            width: 35%;
+        }
     }
 
     //modules/home-page.scss
