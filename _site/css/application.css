@@ -641,9 +641,6 @@ footer {
   .intro p {
     color: #000; }
 
-.content-section {
-  margin-bottom: 80px; }
-
 .headline {
   float: left;
   display: block;
@@ -905,13 +902,9 @@ footer {
     .intro:last-child {
       margin-right: 0; }
 
-  .content-section {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
-    .content-section:last-child {
-      margin-right: 0; }
+  .materials-list {
+    width: 80%;
+    margin: 0 auto; }
 
   .event-list article.card {
     width: 50%;

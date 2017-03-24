@@ -9,10 +9,6 @@
     }
 }
 
-.content-section {
-    margin-bottom: 80px;
-}
-
 .headline {
     @include span-columns(8 of 8);
     @include omega();

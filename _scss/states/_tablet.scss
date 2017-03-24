@@ -102,8 +102,9 @@
         @include shift(1);
     }
 
-    .content-section {
-        @include span-columns(8);
+    .materials-list {
+        width: 80%;
+        margin: 0 auto;
     }
 
     //modules/events.scss
