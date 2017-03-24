@@ -28,6 +28,7 @@ $lite-big-stone:rgba($big-stone, .7);
 $mobile-max-width: 600px;
 $tablet-max-width: 900px;
 $desktop-min-width: 901px;
+$widescreen-min-width: 1201px;
 
 @mixin breakpoint-mobile{
     @media (max-width: #{$mobile-max-width}) {
@@ -49,6 +50,12 @@ $desktop-min-width: 901px;
 
 @mixin breakpoint-desktop {
     @media (min-width: #{$desktop-min-width}) {
+        @content;
+    }
+}
+
+@mixin breakpoint-widescreen {
+    @media (min-width: #{$widescreen-min-width}) {
         @content;
     }
 }

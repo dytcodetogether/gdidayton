@@ -16,7 +16,24 @@
     }
 
     //modules/events.scss
-    article.card {
-        @include span-columns(5.5);
+    .event-list {
+        article.card {
+            width: 30%;
+            margin: 25px;
+
+            .thumb {
+                @include size(auto, 200px);
+            }
+        }
+    }
+}
+
+@include breakpoint-widescreen {
+    .event-list {
+        width: 60%;
+
+        article.card {
+            width: 30%;
+        }
     }
 }

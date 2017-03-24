@@ -795,20 +795,25 @@ footer {
     .event-list article.card .thumb {
       width: auto;
       height: 200px;
-      background: no-repeat center;
+      background: no-repeat center center;
       background-size: cover;
       border-radius: 3px; }
     .event-list article.card .infos {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: auto;
+      height: 150px;
       padding: 14px 24px;
       background: #fff; }
       .event-list article.card .infos .title {
-        margin: 10px 0;
         letter-spacing: 3px;
+        margin: 0;
         color: #152536;
         text-transform: uppercase;
         text-shadow: 0 0 0px #32577f; }
       .event-list article.card .infos .date {
-        margin: 5px 0 35px 0;
         color: rgba(21, 37, 54, 0.7);
         font-family: "Grotesque", sans-serif; }
       .event-list article.card .infos .details {
@@ -929,13 +934,17 @@ footer {
       font-size: 3.5rem;
       padding-top: 150px; }
 
-  article.card {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 44.55627%; }
-    article.card:last-child {
-      margin-right: 0; } }
+  .event-list article.card {
+    width: 30%;
+    margin: 25px; }
+    .event-list article.card .thumb {
+      width: auto;
+      height: 200px; } }
+@media (min-width: 1201px) {
+  .event-list {
+    width: 60%; }
+    .event-list article.card {
+      width: 30%; } }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
