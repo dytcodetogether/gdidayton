@@ -1,8 +1,40 @@
-- title: Intro to HTML/CSS class
-  date: March 18 & 25, 2017
-  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/234840799/
-  image: /img/event_html-css.jpg
 - title: Code & Coffee
   date: March 30, 2017
   link: https://www.meetup.com/Girl-Develop-It-Dayton/events/238027211/
-  image: /img/event_code-coffee.jpeg
+  image: /img/events/event_code-coffee.jpeg
+# - title: Code & Coffee
+#   date: April 8, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/events/238027211/
+#   image: /img/events/event_code-coffee.jpeg
+# - title: March for Science
+#   date: April 22, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_march_for_science.png
+# - title: Code & Coffee
+#   date: April 19, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_code-coffee.jpeg
+# - title: Intro to Python
+#   date: April 29, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_python.jpg
+# - title: Code & Coffee
+#   date: May 13, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_code-coffee.jpeg
+# - title: Into to JavaScript
+#   date: May 13, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_javascript.jpg
+# - title: Code & Coffee
+#   date: May 31, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_code-coffee.jpeg
+# - title: Intermediate HTML & CSS
+#   date: May 13, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_inter_html.png
+# - title: Code & Coffee
+#   date: June 10, 2017
+#   link: https://www.meetup.com/Girl-Develop-It-Dayton/
+#   image: /img/events/event_code-coffee.jpeg
