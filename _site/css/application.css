@@ -182,7 +182,8 @@ hr {
   margin-right: auto;
   width: 965px;
   max-width: 100%;
-  margin: auto; }
+  margin: auto;
+  padding: 20px 25px 0 25px; }
   .container::after {
     clear: both;
     content: "";
@@ -191,9 +192,6 @@ hr {
 .accordion section, .headline h2 {
   border-bottom: 1px dashed #f95a61;
   padding-bottom: .2rem; }
-
-.main-container {
-  padding: 20px 25px 0 25px; }
 
 .main-content {
   outline: 0; }
@@ -939,7 +937,20 @@ footer {
     margin: 25px; }
     .event-list article.card .thumb {
       width: auto;
-      height: 200px; } }
+      height: 200px; }
+
+  .profile-left {
+    float: left;
+    width: 48.5%;
+    margin-right: 3%; }
+    .profile-left img {
+      width: 228px; }
+
+  .profile-right {
+    float: left;
+    width: 48.5%; }
+    .profile-right img {
+      width: 228px; } }
 @media (min-width: 1201px) {
   .event-list {
     width: 60%; }

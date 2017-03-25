@@ -26,6 +26,26 @@
             }
         }
     }
+
+    //modules/about.scss
+    .profile-left {
+        float: left;
+        width: 48.5%;
+        margin-right: 3%;
+
+        img {
+            width: 228px;
+        }
+    }
+
+    .profile-right {
+        float: left;
+        width: 48.5%;
+
+        img {
+            width: 228px;
+        }
+    }
 }
 
 @include breakpoint-widescreen {

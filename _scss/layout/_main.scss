@@ -72,15 +72,12 @@ hr {
     width: 965px;
     max-width: 100%;
     margin: auto;
+    padding: 20px 25px 0 25px;
 }
 
 %dashed-border {
     border-bottom: 1px dashed $pink;
     padding-bottom: .2rem;
-}
-
-.main-container {
-    padding: 20px 25px 0 25px;
 }
 
 .main-content {
