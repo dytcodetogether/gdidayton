@@ -730,12 +730,17 @@ footer {
   .github-fork img {
     vertical-align: middle; }
 
-.sponsors .large, .partners .large {
+.gdi-mission {
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px; }
-.sponsors p, .partners p {
-  color: #000; }
+  margin: 20px 0 50px 0; }
+
+.sponsors, .partners {
+  margin-bottom: 50px; }
+  .sponsors .large, .partners .large {
+    text-align: center;
+    margin-top: 20px; }
+  .sponsors p, .partners p {
+    color: #000; }
 
 .sponsor-logos, .partner-logos {
   text-align: center; }
