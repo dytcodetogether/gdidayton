@@ -54,8 +54,15 @@
 .material-index{
     padding-top: 50px;
 }
+
+.materials-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .material-container{
-    @include span-columns(12);
+    width: 100%;
     background-color:$paleblue;
     padding:10px;
     margin-bottom: 2em;
@@ -68,6 +75,7 @@
 
     h2 {
         margin: 10px 0 0 0;
+        line-height: 1.3rem;
     }
 
     hr {

@@ -46,6 +46,15 @@
             width: 228px;
         }
     }
+
+    //modules/materials.scss
+    .materials-list {
+        width: 965px;
+    }
+
+    .material-container {
+        width: 48%;
+    }
 }
 
 @include breakpoint-widescreen {
