@@ -1,6 +1,10 @@
 header {
     background-color: $pink;
 
+    .container {
+        padding-top: 0;
+    }
+
     .logo {
         display: block;
         width: 200px;

@@ -273,6 +273,8 @@ hr {
 
 header {
   background-color: #f95a61; }
+  header .container {
+    padding-top: 0; }
   header .logo {
     display: block;
     width: 200px;
@@ -828,7 +830,7 @@ footer {
   header {
     height: 100px; }
     header .logo {
-      padding-top: 20px;
+      padding-bottom: 0px;
       margin: 0 auto; }
     header nav {
       float: right;
