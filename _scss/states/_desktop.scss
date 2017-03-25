@@ -5,6 +5,11 @@
 
 @include breakpoint-desktop {
 
+    //layout/main.scss
+    .container {
+        width: 965px;
+    }
+
     //modules/home-page.scss
     .opener {
         height: 400px;
@@ -49,7 +54,7 @@
 
     //modules/materials.scss
     .materials-list {
-        width: 965px;
+        width: 100%;
     }
 
     .material-container {
@@ -64,5 +69,10 @@
         article.card {
             width: 30%;
         }
+    }
+
+    //modules/materials.scss
+    .materials-list {
+        width: 965px;
     }
 }
