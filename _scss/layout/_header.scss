@@ -1,0 +1,69 @@
+header {
+    background-color: $pink;
+
+    .container {
+        padding-top: 0;
+    }
+
+    .logo {
+        display: block;
+        width: 200px;
+        padding: 15px 0;
+        float: left;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    nav{
+        ul {
+            text-align: right;
+            padding-top: 15px;
+            padding-right: 5px;
+        }
+        li {
+            display: block;
+        }
+        i {
+            font-size: 1.1rem;
+        }
+        a {
+            display: block;
+            color: white;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 1.1rem;
+            letter-spacing: .05rem;
+            padding: 0.75rem;
+            margin-bottom: 0em;
+            &.active-nav{
+                background-color: $black;
+                color: $blush;
+            }
+        }
+    }
+}
+
+a#skipnav {
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  color: $red;
+  background: transparent;
+  -webkit-transition: top 1s ease-out, background 1s linear;
+  -moz-transition: top 1s ease-out, background 1s linear;
+  transition: top 1s ease-out, background 1s linear;
+  z-index: 100;
+    &:focus {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background: white;
+      outline: 0;
+      -webkit-transition: top 0.1s ease-in, background 0.5s linear;
+      -moz-transition: top 0.1s ease-in, background 0.5s linear;
+      transition: top 0.1s ease-in, background 0.5s linear;
+    }
+}

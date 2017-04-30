@@ -1,0 +1,40 @@
+.gdi-mission {
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.sponsors{
+    margin-bottom: 50px;
+
+    .large {
+    text-align: center;
+    margin-top:20px;
+    }
+
+    p {
+        color: $black;
+    }
+}
+
+.sponsor-logos {
+    text-align: center;
+
+    img {
+        margin: 1em;
+        max-width: 100%;
+    }
+}
+
+.partners {
+    @extend .sponsors;
+}
+
+.partner-logos {
+    @extend .sponsor-logos;
+}
+
+.supporters {
+    p {
+        text-align: center;
+    }
+}
