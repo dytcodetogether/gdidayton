@@ -788,7 +788,7 @@ footer {
     width: 80%;
     text-align: left;
     border-radius: 3px;
-    margin: 25px 0;
+    margin: 15px 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden; }
     .event-list article.card .thumb {
@@ -912,7 +912,7 @@ footer {
 
   .event-list article.card {
     width: 50%;
-    margin: 25px; }
+    margin: 15px; }
 
   .errors {
     height: 400px;
@@ -938,7 +938,7 @@ footer {
 
   .event-list article.card {
     width: 30%;
-    margin: 25px; }
+    margin: 15px; }
     .event-list article.card .thumb {
       width: auto;
       height: 200px; }
