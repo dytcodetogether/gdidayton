@@ -753,6 +753,13 @@ footer {
 .supporters p {
   text-align: center; }
 
+.logo {
+  display: inline-flex;
+  padding: 0 20px; }
+
+.logo-container {
+  align-content: center; }
+
 .errors {
   text-align: center;
   background: asset-url("photo3.png");
