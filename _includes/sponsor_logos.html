@@ -1,0 +1,5 @@
+ {% for sponsor in site.data.sponsor %}
+<a href={{ sponsor.link | prepend: site.baseurl }} target="_blank">
+    <img alt={{sponsor.name}} height={{sponsor.img.height}} src={{sponsor.img.src}} data-pin-nopin="true" />
+</a>
+{% endfor %}
