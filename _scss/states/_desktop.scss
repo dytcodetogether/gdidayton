@@ -1,0 +1,78 @@
+//The stylesheets for this project are structured using SMACSS (Scalable and Modular Architecture for CSS)
+//https://smacss.com
+
+//STATES: state-based changes
+
+@include breakpoint-desktop {
+
+    //layout/main.scss
+    .container {
+        width: 965px;
+    }
+
+    //modules/home-page.scss
+    .opener {
+        height: 400px;
+
+        h1 {
+            font-size: 3.5rem;
+            padding-top: 150px;
+        }
+    }
+
+    //modules/events.scss
+    .event-list {
+        article.card {
+            width: 30%;
+            margin: 15px;
+
+            .thumb {
+                @include size(auto, 200px);
+            }
+        }
+    }
+
+    //modules/about.scss
+    .profile-left {
+        float: left;
+        width: 48.5%;
+        margin-right: 3%;
+
+        img {
+            width: 228px;
+        }
+    }
+
+    .profile-right {
+        float: left;
+        width: 48.5%;
+
+        img {
+            width: 228px;
+        }
+    }
+
+    //modules/materials.scss
+    .materials-list {
+        width: 100%;
+    }
+
+    .material-container {
+        width: 48%;
+    }
+}
+
+@include breakpoint-widescreen {
+    .event-list {
+        width: 60%;
+
+        article.card {
+            width: 30%;
+        }
+    }
+
+    //modules/materials.scss
+    .materials-list {
+        width: 965px;
+    }
+}

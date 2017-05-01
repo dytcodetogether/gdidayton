@@ -1,0 +1,138 @@
+//The stylesheets for this project are structured using SMACSS (Scalable and Modular Architecture for CSS)
+//https://smacss.com
+
+//STATES: state-based changes
+
+@include breakpoint-tablet {
+
+    //layout/main.scss
+    .main-container {
+        padding-top: 85px;
+    }
+
+    //layout/header.scss
+    header {
+        height: 100px;
+
+        .logo {
+            padding-bottom: 0px;
+            margin: 0 auto;
+        }
+
+        nav {
+            float: right;
+            margin: 0;
+            ul {
+                float: left;
+                text-align: center;
+            }
+            li {
+                display: inline-block;
+            }
+            a {
+                padding: 3rem 1rem 3rem 1rem;
+                &:hover {
+                    background-color: $navy;
+                    color: $blush;
+                }
+            }
+        }
+    }
+
+    //layout/footer.scss
+    footer {
+        p.subtitle {
+            font-size: 1em;
+        }
+    }
+
+    //modules/about.scss
+    .mission {
+        @include span-columns(10);
+        @include shift(1);
+    }
+
+    .vision {
+        @include span-columns(10);
+        @include shift(1);
+    }
+
+    .values {
+        @include span-columns(10);
+        @include shift(1);
+    }
+
+    .support, .story {
+        p {
+            width: 82.94039%;
+            margin-left: 8.5298%;
+        }
+    }
+
+    .profile-left {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+
+        img {
+            width: 35%;
+        }
+    }
+
+    .profile-right {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+
+        img {
+            width: 35%;
+        }
+    }
+
+    //modules/home-page.scss
+    .opener {
+        h1 {
+            padding-top: 100px;
+        }
+    }
+
+    //modules/materials.scss
+    .intro {
+        @include span-columns(10);
+        @include shift(1);
+    }
+
+    .materials-list {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    //modules/events.scss
+    .event-list {
+        article.card {
+            width: 50%;
+            margin: 15px;
+        }
+    }
+
+    //modules/errors.scss
+    .errors {
+        height: 400px;
+        background-position: top center;
+        background-color: $paleblue;
+
+        h1 {
+            font-size: 3.5rem;
+            padding-top: 100px;
+        }
+    }
+}
+
+@include breakpoint-tablet-min-max {
+    //modules/home-page.scss
+    .opener {
+        height: 300px;
+        width: 100%;
+        background-position: 30% 0%;
+    }
+}
