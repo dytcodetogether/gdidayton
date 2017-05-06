@@ -30,7 +30,7 @@
     src: https://girl-develop-it.s3.amazonaws.com/uploads/material/icon/2/materials_accesibility.png
 - title: Introduction to Python
   subtitle: Beginner-level introduction to programming using Python
-  link: https://gdidayton.github.io/into-to-python
+  link: https://gdidayton.github.io/intro-to-python/#/
   img:
     alt: Introduction to Python image
     src: /img/python-logo.png
