@@ -92,7 +92,17 @@
     //modules/home-page.scss
     .opener {
         h1 {
-            padding-top: 100px;
+            // padding-top: 5rem;
+            font-size: 2.5rem;
+            line-height: 3rem;
+            padding: 5rem 1rem 1rem 1rem
+        }
+        h2 {
+
+            font-size: 2.25rem;
+            //padding: 1rem 1rem .5rem 1rem;
+            line-height: 3rem;           
+
         }
     }
 

@@ -1,24 +1,39 @@
 .opener {
     text-align: center;
-    background: url('../img/GDI_buttons_image3.jpg') $paleblue no-repeat center center fixed;
-    background-size: cover;
+    // background: url('../img/GDI_buttons_image3.jpg') $paleblue no-repeat center center fixed;
+    background: url('../img/Anniversary_Party_cake.png') $paleblue no-repeat center top;
     height: 200px;
-    width: 100%;
-    background-position: 10% 0%;
+    background-size:cover;
 
     h1 {
         color: white;
         font-weight: 400;
         height: auto;
         width: 100%;
-        font-size: 2.5rem;
-        padding-top: 30px;
-        line-height: 4rem;
+        font-size: 1.5rem;
+        padding: 2rem 1rem .5rem 1rem;
+        line-height: 2rem;
+        //text-transform: capitalize;
+
+    }
+    h2 {
+        color: white;
+        font-weight: 400;
+        height: auto;
+        width: 100%;
+        font-size: 1.25rem;
+        //padding: 1rem 1rem .5rem 1rem;
+        line-height: 2rem;
+        //text-transform: capitalize;
+        a{
+          color: white;
+        }
+
     }
 
     img {
-        height: 80px;
-        margin-bottom: -8px;
+        height: 20px;
+        margin-bottom: -1rem;
     }
 }
 
