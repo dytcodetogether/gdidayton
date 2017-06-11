@@ -366,22 +366,29 @@ footer {
 
 .opener {
   text-align: center;
-  background: url("../img/GDI_buttons_image3.jpg") #e4e9e5 no-repeat center center fixed;
-  background-size: cover;
+  background: url("../img/Anniversary_Party_cake.png") #e4e9e5 no-repeat center top;
   height: 200px;
-  width: 100%;
-  background-position: 10% 0%; }
+  background-size: cover; }
   .opener h1 {
     color: white;
     font-weight: 400;
     height: auto;
     width: 100%;
-    font-size: 2.5rem;
-    padding-top: 30px;
-    line-height: 4rem; }
+    font-size: 1.5rem;
+    padding: 2rem 1rem .5rem 1rem;
+    line-height: 2rem; }
+  .opener h2 {
+    color: white;
+    font-weight: 400;
+    height: auto;
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 2rem; }
+    .opener h2 a {
+      color: white; }
   .opener img {
-    height: 80px;
-    margin-bottom: -8px; }
+    height: 20px;
+    margin-bottom: -1rem; }
 
 .animated {
   -webkit-animation-fill-mode: both;
@@ -902,7 +909,12 @@ footer {
       width: 35%; }
 
   .opener h1 {
-    padding-top: 100px; }
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding: 5rem 1rem 1rem 1rem; }
+  .opener h2 {
+    font-size: 2.25rem;
+    line-height: 3rem; }
 
   .intro {
     float: left;
@@ -941,7 +953,11 @@ footer {
     height: 400px; }
     .opener h1 {
       font-size: 3.5rem;
-      padding-top: 150px; }
+      padding: 6rem 1rem 0 1rem;
+      line-height: 4rem; }
+    .opener h2 {
+      font-size: 3.25rem;
+      line-height: 4rem; }
 
   .event-list article.card {
     width: 30%;
