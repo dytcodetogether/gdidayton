@@ -15,8 +15,8 @@
         height: 400px;
 
         h1 {
-            font-size: 3.5rem;
-            padding: 6rem 1rem 0 1rem;
+            font-size: 5rem;
+            padding: 10rem 1rem 0 1rem;
             line-height: 4rem;
         }
         h2 {
@@ -25,6 +25,9 @@
             //padding: 1rem 1rem .5rem 1rem;
             line-height: 4rem;           
 
+        }
+        .hide {
+            display: inline;
         }
     }
 
