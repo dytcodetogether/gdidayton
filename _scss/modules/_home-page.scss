@@ -1,19 +1,20 @@
 .opener {
     text-align: center;
     // background: url('../img/GDI_buttons_image3.jpg') $paleblue no-repeat center center fixed;
-    background: url('../img/Anniversary_Party_cake.png') $paleblue no-repeat center top;
+    background-color: #2a4758;
+    background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%235b91b1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
     height: 200px;
-    background-size:cover;
+    // background-size:cover;
 
     h1 {
         color: white;
         font-weight: 400;
         height: auto;
         width: 100%;
-        font-size: 1.5rem;
-        padding: 2rem 1rem .5rem 1rem;
-        line-height: 2rem;
-        //text-transform: capitalize;
+        font-size: 2.5rem;
+        padding-top: 30px;
+        line-height: 4rem;
+        text-transform: capitalize;
 
     }
     h2 {
@@ -22,9 +23,9 @@
         height: auto;
         width: 100%;
         font-size: 1.25rem;
-        //padding: 1rem 1rem .5rem 1rem;
+        padding: 1rem 1rem .5rem 1rem;
         line-height: 2rem;
-        //text-transform: capitalize;
+        text-transform: capitalize;
         a{
           color: white;
         }
@@ -32,8 +33,8 @@
     }
 
     img {
-        height: 20px;
-        margin-bottom: -1rem;
+        height: 80px;
+        margin-bottom: -8px;
     }
 }
 
