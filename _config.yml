@@ -23,6 +23,12 @@ category_dir: /
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://www.gdidayton.com
 
+# API to get events data from Meetup
+jekyll_get:
+  data: meetup-events
+  json: 'https://api.meetup.com/girl-develop-it-dayton/events?photo-host=public&page=20&sig_id=8881904&sig=a65da054550312ede829f4fe5ca6684c970ec407'
+  cache: false
+
 #### Under the Hood Stuff #####
 
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
