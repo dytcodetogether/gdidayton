@@ -67,11 +67,11 @@ h6 {
   text-transform: uppercase; }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   letter-spacing: .14rem; }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   letter-spacing: .14rem;
   margin: auto;
   padding: .5rem;
@@ -80,7 +80,7 @@ h2 {
     color: #000; }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: .95rem;
   letter-spacing: .1rem;
   margin: auto;
   padding: .1rem;
@@ -366,32 +366,29 @@ footer {
 
 .opener {
   text-align: center;
-  background-color: #2a4758;
-  background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%235b91b1' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
-  height: 200px; }
+  background: url("../img/Anniversary_Party_cake.png") #e4e9e5 no-repeat center top;
+  height: 200px;
+  background-size: cover; }
   .opener h1 {
     color: white;
     font-weight: 400;
     height: auto;
     width: 100%;
-    font-size: 2.5rem;
-    padding-top: 30px;
-    line-height: 4rem;
-    text-transform: capitalize; }
+    font-size: 1.5rem;
+    padding: 2rem 1rem .5rem 1rem;
+    line-height: 2rem; }
   .opener h2 {
     color: white;
     font-weight: 400;
     height: auto;
     width: 100%;
     font-size: 1.25rem;
-    padding: 1rem 1rem .5rem 1rem;
-    line-height: 2rem;
-    text-transform: capitalize; }
+    line-height: 2rem; }
     .opener h2 a {
       color: white; }
   .opener img {
-    height: 80px;
-    margin-bottom: -8px; }
+    height: 20px;
+    margin-bottom: -1rem; }
 
 .animated {
   -webkit-animation-fill-mode: both;
@@ -802,41 +799,43 @@ footer {
   flex-flow: row wrap;
   justify-content: center; }
   .event-list article.card {
-    max-width: 70%;
+    width: 80%;
     text-align: left;
     border-radius: 3px;
     margin: 15px 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden; }
+    .event-list article.card .thumb {
+      width: auto;
+      height: 200px;
+      background: no-repeat center center;
+      background-size: cover;
+      border-radius: 3px; }
     .event-list article.card .infos {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      justify-content: space-between;
+      align-items: flex-start;
       width: auto;
+      height: 150px;
       padding: 14px 24px;
       background: #fff; }
       .event-list article.card .infos .title {
         letter-spacing: 3px;
-        margin-top: 1em;
+        margin: 0;
         color: #152536;
         text-transform: uppercase;
         text-shadow: 0 0 0px #32577f; }
       .event-list article.card .infos .date {
         color: rgba(21, 37, 54, 0.7);
-        font-family: "Grotesque", sans-serif;
-        margin: 5px; }
-      .event-list article.card .infos .details p {
-        margin: 1em;
-        padding: 0 1em;
-        font-size: .875rem;
-        letter-spacing: .03rem; }
-      .event-list article.card .infos img {
-        width: 100%;
-        margin: 0 auto; }
-      .event-list article.card .infos .button {
-        font-size: 1.3em;
-        margin-top: .5em;
-        padding: .5em; }
+        font-family: "Grotesque", sans-serif; }
+      .event-list article.card .infos .details {
+        letter-spacing: 1px;
+        color: #4e958b;
+        font-family: "Grotesque Black", sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer; }
 
 @media (min-width: 601px) {
   .main-container {
@@ -910,15 +909,12 @@ footer {
       width: 35%; }
 
   .opener h1 {
-    padding-top: 5rem;
     font-size: 2.5rem;
     line-height: 3rem;
     padding: 5rem 1rem 1rem 1rem; }
   .opener h2 {
     font-size: 2.25rem;
     line-height: 3rem; }
-  .opener .hide {
-    display: inline; }
 
   .intro {
     float: left;
@@ -956,20 +952,19 @@ footer {
   .opener {
     height: 400px; }
     .opener h1 {
-      font-size: 5rem;
-      padding: 10rem 1rem 0 1rem;
+      font-size: 3.5rem;
+      padding: 6rem 1rem 0 1rem;
       line-height: 4rem; }
     .opener h2 {
       font-size: 3.25rem;
       line-height: 4rem; }
-    .opener .hide {
-      display: inline; }
 
   .event-list article.card {
-    width: 70%;
+    width: 30%;
     margin: 15px; }
-    .event-list article.card .title {
-      font-size: 1.7em; }
+    .event-list article.card .thumb {
+      width: auto;
+      height: 200px; }
 
   .profile-left {
     float: left;
@@ -991,9 +986,9 @@ footer {
     width: 48%; } }
 @media (min-width: 1201px) {
   .event-list {
-    width: 70%; }
+    width: 60%; }
     .event-list article.card {
-      width: 70%; }
+      width: 30%; }
 
   .materials-list {
     width: 965px; } }
