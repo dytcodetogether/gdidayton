@@ -5,55 +5,51 @@
 	justify-content: center;
 
 	article.card {
-		max-width: 70%;
+		width: 80%;
 		text-align:left;
 		border-radius:$border-radius;
 		margin: 15px 0;
 		box-shadow:$box-shadow;
 		overflow:hidden;
+		//
+		.thumb {
+		 	@include size(auto, 200px);
+		 	background: no-repeat center center;
+			background-size:cover;
+			border-radius:$border-radius;
+		}
 
 		.infos {
 			display: flex;
 			flex-direction: column;
-			align-items: center;
+			justify-content: space-between;
+			align-items: flex-start;
 			width: auto;
-			padding: 14px 24px;
+			height: 150px;
+			padding:14px 24px;
 			background:$white;
 
 			.title {
 				letter-spacing: 3px;
-				margin-top: 1em;
+				margin: 0;
 				color:$big-stone;
 				text-transform: uppercase;
 				text-shadow: 0 0 0px lighten($big-stone, 20);
 			}
-			
+
 			.date {
 				color:$lite-big-stone;
 				font-family: $grotesque-regular;
-				margin: 5px;
 			}
 
 			.details {
-
-				p {
-					margin: 1em;
-					padding: 0 1em;
-					font-size: .875rem;
-					letter-spacing: .03rem;
-				}
+				letter-spacing: 1px;
+				color:$smalt-blue;
+				font-family: $grotesque-black;
+				text-transform: uppercase;
+				text-decoration: none;
+				cursor:pointer;
 			}
-
-			img {
-				width: 100%;
-				margin: 0 auto;
-			}
-			
-			.button {
-				font-size: 1.3em;
-				margin-top: .5em;
-				padding: .5em;
-			}
+		}
 	}
-}
 }

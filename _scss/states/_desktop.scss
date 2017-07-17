@@ -34,11 +34,11 @@
     //modules/events.scss
     .event-list {
         article.card {
-            width: 70%;
+            width: 30%;
             margin: 15px;
 
-            .title {
-                font-size: 1.7em;
+            .thumb {
+                @include size(auto, 200px);
             }
         }
     }
@@ -75,10 +75,10 @@
 
 @include breakpoint-widescreen {
     .event-list {
-        width: 70%;
+        width: 60%;
 
         article.card {
-            width: 70%;
+            width: 30%;
         }
     }
 

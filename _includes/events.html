@@ -1,13 +1,13 @@
 
-          {% for event in site.data.meetup-events %}
+          {% for event in site.data.events %}
         <article class="card">
+            <a href={{ event.link | prepend: site.baseurl }}>
+              <div class="thumb" style="background-image: url({{ event.image | prepend: site.baseurl }});"></div>
+            </a>
             <div class="infos">
-                <h3 class="title">{{ event.name }}</h3>
-                <p class="date">{{ event.time) | divided_by: 1000 | time_zone: -5 | date: '%B %-d, %Y | %-I:%M%P'  }} </p>
-                <a href={{ event.link }} class="button">RSVP</a>
-                <div class="details">
-                <p>{{ event.description | truncatewords: 80}} <a href="{{event.link}}">[more]</a></p>
-                </div>
+                <h3 class="title">{{ event.title }}</h3>
+                <p class="date">{{ event.date }}</p>
+                <a href={{ event.link }} class="details">details</a>
             </div>
         </article>
     {% endfor %}
