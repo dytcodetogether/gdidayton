@@ -1,8 +1,16 @@
 - title: Code & Coffee
-  date: August 9, 2017
-  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/241682316/
+  date: September 9, 2017
+  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242221958
   image: /img/events/event_code-coffee.jpeg
 - title: HTML/CSS Refresher Course
-  date: August 24, 2017
-  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/241749660/
-  image: /img/events/event_html_css_refresher.png
+  date: September 12, 2017
+  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242222155
+  image: /img/events/event_sass.jpeg
+- title: Social Event - Decoy Art Studio
+  date: September 24, 2017
+  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242618731
+  image: /img/events/event_decoy.jpg
+- title: Intro to Command Line, Git & Github
+  date: October 7, 2017
+  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242795841
+  image: /img/events/event_cmd.png
