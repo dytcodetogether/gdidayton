@@ -1,7 +1,3 @@
-- title: Code & Coffee
-  date: September 9, 2017
-  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242221958
-  image: /img/events/event_code-coffee.jpeg
 - title: HTML/CSS Refresher Course
   date: September 12, 2017
   link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242222155
@@ -14,3 +10,7 @@
   date: October 7, 2017
   link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242795841
   image: /img/events/event_cmd.png
+- title: Code & Coffee: Hacktoberfest
+  date: October 14, 2017
+  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/242795873
+  image: /img/events/event_code-coffee.jpeg
