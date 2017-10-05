@@ -7,16 +7,16 @@
 	article.card {
 		width: 80%;
 		text-align:left;
-		border-radius:$border-radius;
+		border-radius: $border-radius;
 		margin: 15px 0;
-		box-shadow:$box-shadow;
+		box-shadow: $box-shadow;
 		overflow:hidden;
 		//
 		.thumb {
-		 	@include size(auto, 200px);
-		 	background: no-repeat center center;
+			@include size(auto, 200px);
+			background: no-repeat center center;
 			background-size:cover;
-			border-radius:$border-radius;
+			border-radius: $border-radius;
 		}
 
 		.infos {
@@ -26,8 +26,8 @@
 			align-items: flex-start;
 			width: auto;
 			height: 150px;
-			padding:14px 24px;
-			background:$white;
+			padding: 14px 24px;
+			background: $white;
 
 			.title {
 				letter-spacing: 3px;
@@ -44,11 +44,11 @@
 
 			.details {
 				letter-spacing: 1px;
-				color:$smalt-blue;
+				color: $smalt-blue;
 				font-family: $grotesque-black;
 				text-transform: uppercase;
 				text-decoration: none;
-				cursor:pointer;
+				cursor: pointer;
 			}
 		}
 	}
