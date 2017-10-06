@@ -23,23 +23,11 @@
 
             font-size: 3.25rem;
             //padding: 1rem 1rem .5rem 1rem;
-            line-height: 4rem;           
+            line-height: 4rem;
 
         }
         .hide {
             display: inline;
-        }
-    }
-
-    //modules/events.scss
-    .event-list {
-        article.card {
-            width: 30%;
-            margin: 15px;
-
-            .thumb {
-                @include size(auto, 200px);
-            }
         }
     }
 
@@ -74,14 +62,6 @@
 }
 
 @include breakpoint-widescreen {
-    .event-list {
-        width: 60%;
-
-        article.card {
-            width: 30%;
-        }
-    }
-
     //modules/materials.scss
     .materials-list {
         width: 965px;
