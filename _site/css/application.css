@@ -53,7 +53,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%; }
 
 h1,
@@ -68,22 +68,22 @@ h6 {
 
 h1 {
   font-size: 1.2rem;
-  letter-spacing: .14rem; }
+  letter-spacing: 0.14rem; }
 
 h2 {
   font-size: 1rem;
-  letter-spacing: .14rem;
+  letter-spacing: 0.14rem;
   margin: auto;
-  padding: .5rem;
+  padding: 0.5rem;
   line-height: 2.0rem; }
   h2 a {
     color: #000; }
 
 h3 {
-  font-size: .95rem;
-  letter-spacing: .1rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.1rem;
   margin: auto;
-  padding: .1rem;
+  padding: 0.1rem;
   line-height: 1.3rem; }
   h3 a {
     color: #000; }
@@ -91,9 +91,9 @@ h3 {
 p {
   font-size: 1.025rem;
   font-weight: 300;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   color: #2d2e2e;
-  line-weight: .3rem;
+  line-weight: 0.3rem;
   line-height: 1.5rem; }
   p a {
     font-style: italic;
@@ -114,10 +114,10 @@ a {
   color: #01595F;
   font-style: italic;
   font-weight: 400;
-  font-size: .85rem;
+  font-size: 0.85rem;
   text-transform: none;
-  letter-spacing: .06rem;
-  margin: .35rem 0rem; }
+  letter-spacing: 0.06rem;
+  margin: 0.35rem 0rem; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -140,17 +140,17 @@ hr {
 .accordion {
   margin: 0 0 60px 0px; }
   .accordion .hidden {
-    height: 38px; }
+    height: 2.375rem; }
   .accordion section {
     overflow: hidden;
-    transition: height .5s ease-in-out; }
+    transition: height 0.5s ease-in-out; }
   .accordion h2 {
     cursor: pointer;
     color: #000;
     padding: 15px 0 7px 0; }
   .accordion a {
     text-transform: none;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
     font-weight: 300;
     color: #f95a61;
     font-style: italic; }
@@ -159,11 +159,11 @@ hr {
   display: inline-block;
   font-weight: 700;
   color: #2a4758;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: .14rem;
+  letter-spacing: 0.14rem;
   background-color: #d8ae64;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: none; }
   .button:hover {
     background-color: #000;
@@ -191,7 +191,7 @@ hr {
 
 .accordion section, .headline h2 {
   border-bottom: 1px dashed #f95a61;
-  padding-bottom: .2rem; }
+  padding-bottom: 0.2rem; }
 
 .main-content {
   outline: 0; }
@@ -199,7 +199,7 @@ hr {
 .headline {
   text-align: center; }
   .headline img {
-    height: 35px;
+    height: 2.1875rem;
     display: block;
     margin: auto; }
   .headline h2 {
@@ -207,28 +207,28 @@ hr {
     color: #2a4758;
     padding: 0px 5px 6px 5px;
     display: inline-block;
-    margin: .5rem auto 3rem auto; }
+    margin: 0.5rem auto 3rem auto; }
 
 .mapTooltip {
   background-color: #f95a61;
   position: fixed;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 6px;
-  font-size: .85em;
+  font-size: 0.85em;
   color: #fff;
-  letter-spacing: .06rem;
+  letter-spacing: 0.06rem;
   font-weight: 300; }
 
 .media-links {
   padding: 0px;
-  margin: 1em -.45em 1.5em -.45em; }
+  margin: 1em -0.45em 1.5em; }
   .media-links li {
     display: inline; }
   .media-links a {
     display: inline-block;
-    font-size: .8em;
-    height: 25px;
-    width: 25px;
+    font-size: 0.8em;
+    height: 1.5625rem;
+    width: 1.5625rem;
     color: #f95a61;
     border-radius: 50%;
     margin: 2px;
@@ -238,7 +238,7 @@ hr {
       background: #d8ae64;
       color: #fff; }
   .media-links.media-links-rounded a {
-    font-size: .8em;
+    font-size: 0.8em;
     color: white;
     background-color: #d8ae64; }
     .media-links.media-links-rounded a:hover {
@@ -251,14 +251,14 @@ hr {
     width: 100%;
     border-top: 2px solid #d8ae64;
     border-bottom: 2px solid #d8ae64;
-    margin-bottom: 30px; }
+    margin-bottom: 1.875rem; }
   .underlined-headline h2 {
     font-size: 1.5rem;
     color: #000;
     font-weight: 300;
-    letter-spacing: .1rem; }
+    letter-spacing: 0.1rem; }
   .underlined-headline .subtitle {
-    margin-top: -20px; }
+    margin-top: -1.25rem; }
     .underlined-headline .subtitle a {
       color: #f95a61; }
       .underlined-headline .subtitle a:hover {
@@ -277,7 +277,7 @@ header {
     padding-top: 0; }
   header .logo {
     display: block;
-    width: 200px;
+    width: 12.5rem;
     padding: 15px 0;
     float: left; }
     header .logo img {
@@ -293,11 +293,11 @@ header {
     font-size: 1.1rem; }
   header nav a {
     display: block;
-    color: white;
+    color: #fff;
     font-style: italic;
     font-weight: 300;
     font-size: 1.1rem;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
     padding: 0.75rem;
     margin-bottom: 0em; }
     header nav a.active-nav {
@@ -319,7 +319,7 @@ a#skipnav {
     position: absolute;
     left: 0px;
     top: 0px;
-    background: white;
+    background: #fff;
     outline: 0;
     -webkit-transition: top 0.1s ease-in, background 0.5s linear;
     -moz-transition: top 0.1s ease-in, background 0.5s linear;
@@ -327,24 +327,24 @@ a#skipnav {
 
 footer {
   text-align: center;
-  min-height: 190px;
+  min-height: 11.875rem;
   background-color: #2a4758;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   width: 100%; }
   footer p.subtitle {
-    font-size: .75em; }
+    font-size: 0.75em; }
     footer p.subtitle a {
       color: #fff; }
   footer .navigation {
-    margin-top: 25px; }
+    margin-top: 1.5625rem; }
     footer .navigation a {
       color: #fff;
       font-style: italic;
       font-weight: 300;
-      font-size: .9rem;
-      letter-spacing: .05rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05rem;
       padding: 0 1rem;
-      margin-bottom: 0em;
+      margin-bottom: 0;
       text-decoration: underline; }
       footer .navigation a:hover {
         color: #d8ae64; }
@@ -358,10 +358,10 @@ footer {
     font-weight: 300;
     margin-bottom: -1px; }
   footer #mce-EMAIL {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
     padding: 8px; }
   footer #mc-embedded-subscribe {
-    margin-top: .35em;
+    margin-top: 0.35em;
     cursor: pointer; }
 
 .opener {
@@ -379,16 +379,16 @@ footer {
     line-height: 4rem;
     text-transform: capitalize; }
   .opener h2 {
-    color: white;
+    color: #fff;
     font-weight: 400;
     height: auto;
     width: 100%;
     font-size: 1.25rem;
-    padding: 1rem 1rem .5rem 1rem;
+    padding: 1rem 1rem 0.5rem;
     line-height: 2rem;
     text-transform: capitalize; }
     .opener h2 a {
-      color: white; }
+      color: #fff; }
   .opener img {
     height: 80px;
     margin-bottom: -8px; }
@@ -550,7 +550,7 @@ footer {
   .vision:last-child {
     margin-right: 0; }
   .vision .subtitle {
-    padding: 0 .2rem .5rem .2rem; }
+    padding: 0 0.2rem 0.5rem; }
 
 .values {
   float: left;
@@ -562,11 +562,11 @@ footer {
   .values:last-child {
     margin-right: 0; }
   .values .subtitle {
-    padding: 0 .2rem .5rem .2rem; }
+    padding: 0 0.2rem 0.5rem; }
 
 .support, .story {
-  background-image: -webkit-radial-gradient(white, #e4e9e5);
-  background-image: radial-gradient(white, #e4e9e5);
+  background-image: -webkit-radial-gradient(#fff, #e4e9e5);
+  background-image: radial-gradient(#fff, #e4e9e5);
   text-align: center;
   height: 100%;
   padding: 60px 0; }
@@ -574,7 +574,6 @@ footer {
     display: block;
     width: 90%;
     margin: 0 auto;
-    color: #282828;
     color: #000; }
 
 .story {
@@ -589,7 +588,7 @@ footer {
     display: block;
     width: 45%;
     margin: 0 auto 20px auto;
-    box-shadow: .025rem .025rem .5rem #bdbec0;
+    box-shadow: 0.025rem 0.025rem 0.5rem 0 1px 4px rgba(0, 0, 0, 0.3);
     border-radius: 5px; }
   .profile-left h3 {
     display: block;
@@ -613,7 +612,7 @@ footer {
     display: block;
     width: 45%;
     margin: 0 auto 20px auto;
-    box-shadow: .025rem .025rem .5rem #bdbec0;
+    box-shadow: 0.025rem 0.025rem 0.5rem 0 1px 4px rgba(0, 0, 0, 0.3);
     border-radius: 5px; }
   .profile-right h3 {
     display: block;
@@ -628,9 +627,10 @@ footer {
   padding-bottom: 80px; }
   .code p {
     margin-top: 10px;
-    color: #282828; }
+    color: #000; }
 
-.board, .contact {
+.board,
+.contact {
   float: left;
   display: block;
   width: 100%;
@@ -674,7 +674,7 @@ footer {
     .materials .read-more:hover {
       color: #f95a61; }
   .materials .button {
-    margin: 10px 0 55px 0;
+    margin: 10px 0 55px;
     background-color: #e4e9e5;
     color: #f95a61; }
     .materials .button:hover {
@@ -696,13 +696,13 @@ footer {
   background-color: #e4e9e5;
   padding: 10px;
   margin-bottom: 2em;
-  -moz-transition: background, .5s;
-  -webkit-transition: background, .5s;
-  transition: background, .5s; }
+  -moz-transition: background, 0.5s;
+  -webkit-transition: background, 0.5s;
+  transition: background, 0.5s; }
   .material-container:hover {
     background-color: #fbcfc6; }
   .material-container h2 {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     line-height: 1.3rem; }
   .material-container hr {
     width: 55%; }
@@ -710,7 +710,7 @@ footer {
     float: left; }
   .material-container h3 {
     text-transform: none;
-    letter-spacing: .08rem;
+    letter-spacing: 0.08rem;
     font-weight: 300; }
     .material-container h3 a {
       color: #2d2e2e; }
@@ -724,18 +724,18 @@ footer {
 
 .class-slides h3, .practice-files h3 {
   line-height: 3rem;
-  margin-top: .5em; }
+  margin-top: 0.5rem; }
 .class-slides a, .practice-files a {
   color: #2d2e2e; }
   .class-slides a:hover, .practice-files a:hover {
     color: #f95a61; }
 .class-slides li, .practice-files li {
-  padding: 0.5em 0; }
+  padding: 0.5rem 0; }
 
 .github-fork {
   background-color: #f95a61;
-  padding: .5em;
-  margin: 2em 0;
+  padding: 0.5rem;
+  margin: 2rem 0;
   color: #fff; }
   .github-fork a {
     color: #fff; }
@@ -744,7 +744,7 @@ footer {
 
 .gdi-mission {
   text-align: center;
-  margin: 20px 0 50px 0; }
+  margin: 20px 0 50px; }
 
 .sponsors, .partners {
   margin-bottom: 50px; }
@@ -791,10 +791,10 @@ footer {
     height: 80px;
     margin-bottom: -8px; }
   .errors a {
-    border-bottom: 1px dashed #F95A61;
+    border-bottom: 1px dashed #f95a61;
     padding-bottom: 0.2rem; }
     .errors a:hover {
-      color: #F95A61; }
+      color: #f95a61; }
 
 .event-list {
   width: 100%;
@@ -831,11 +831,11 @@ footer {
         text-shadow: 0 0 0px #32577f; }
       .event-list article.card .infos .date {
         color: rgba(21, 37, 54, 0.7);
-        font-family: "Grotesque", sans-serif; }
+        font-family: "Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif; }
       .event-list article.card .infos .details {
         letter-spacing: 1px;
         color: #4e958b;
-        font-family: "Grotesque Black", sans-serif;
+        font-family: "Grotesque Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         text-decoration: none;
         cursor: pointer; }
