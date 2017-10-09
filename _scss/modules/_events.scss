@@ -1,11 +1,15 @@
 .event-list {
 	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+
+  @include breakpoint-tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 	article.card {
 		width: 80%;
+<<<<<<< HEAD
 		text-align:left;
 		border-radius: $border-radius;
 		margin: 15px 0;
@@ -17,6 +21,36 @@
 			background: no-repeat center center;
 			background-size:cover;
 			border-radius: $border-radius;
+=======
+		text-align: left;
+		border-radius: $border-radius;
+		margin: 1em auto;
+		box-shadow: $box-shadow;
+		overflow: hidden;
+
+    @include breakpoint-tablet {
+      width: 50%;
+      flex-basis: calc(50% - 2em); // This properly resizes the width within Flexbox
+      margin: 1em;
+    }
+
+    @include breakpoint-desktop {
+      width: 30%;
+      flex-basis: calc(30% - 2em); // This properly resizes the width within Flexbox
+    }
+
+		.thumb {
+      width: 100%;
+		 	background: no-repeat center center;
+			background-size: cover;
+			border-radius: $border-radius;
+
+      &::after {
+        display:block;
+        content:'';
+        padding-top: 50%;
+      }
+>>>>>>> 8a9d69c95f918154cad03d01540cc4036338540b
 		}
 
 		.infos {
