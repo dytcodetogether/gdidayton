@@ -1,51 +1,59 @@
 footer {
   text-align: center;
-  min-height: 190px;
+  min-height: 11.875rem;
   background-color: $navy;
-  padding: 20px 0;
+  padding: 1.25rem 0;
   width: 100%;
 
-  p.subtitle{
-    font-size: .75em;
+  p.subtitle {
+    font-size: 0.75em;
 
     a {
       color: $white;
     }
   }
+
   .navigation {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
+
     a {
       color: $white;
       font-style: italic;
       font-weight: 300;
-      font-size: .9rem;
-      letter-spacing: .05rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05rem;
       padding: 0 1rem;
-      margin-bottom: 0em;
+      margin-bottom: 0;
       text-decoration: underline;
+
       &:hover {
         color: $gold;
       }
+
       i {
         font-size: 1.1rem;
         color: $gold;
+
         &:hover{
-          color: #fff;
+          color: $white;
         }
       }
     }
   }
+
   .subtitle {
     color: $paleblue;
     font-weight: 300;
     margin-bottom: -1px;
   }
-  #mce-EMAIL{
-    margin:.5rem 0;
-    padding:8px;
+
+  #mce-EMAIL {
+    margin: 0.5rem 0;
+    padding: 8px;
   }
-  #mc-embedded-subscribe{
-    margin-top:.35em;
-    cursor:pointer;
+
+  #mc-embedded-subscribe {
+    margin-top: 0.35em;
+    cursor: pointer;
   }
 }

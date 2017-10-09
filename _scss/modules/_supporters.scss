@@ -1,48 +1,47 @@
 .gdi-mission {
-    text-align: center;
-    margin: 20px 0 50px 0;
+  text-align: center;
+  margin: 20px 0 50px;
 }
 
 .sponsors{
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 
-    .large {
+  .large {
     text-align: center;
-    margin-top:20px;
-    }
+    margin-top: 20px;
+  }
 
-    p {
-        color: $black;
-    }
+  p {
+    color: $black;
+  }
 }
 
 .sponsor-logos {
-    text-align: center;
+  text-align: center;
 
-    img {
-        margin: 1em;
-        max-width: 100%;
-    }
+  img {
+    margin: 1em;
+    max-width: 100%;
+  }
 }
 
 .partners {
-    @extend .sponsors;
+  @extend .sponsors;
 }
 
 .partner-logos {
-    @extend .sponsor-logos;
+  @extend .sponsor-logos;
 }
 
 .supporters {
-    p {
-        text-align: center;
-    }
+  p {
+    text-align: center;
+  }
 }
-.logo{
+.logo {
   display: inline-flex;
   padding: 0 20px;
 }
-.logo-container{
-  //width: 80%;
+.logo-container {
   align-content: center;
 }

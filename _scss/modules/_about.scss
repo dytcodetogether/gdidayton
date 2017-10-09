@@ -1,127 +1,127 @@
 .mission {
-    @include span-columns(12);
-    text-align: center;
-    margin-bottom: 50px;
+  @include span-columns(12);
+  text-align: center;
+  margin-bottom: 50px;
 
-    p {
-        color: $black;
-    }
+  p {
+    color: $black;
+  }
 }
 
 .vision{
-    @include span-columns(12);
-    text-align: center;
-    margin-bottom: 50px;
+  @include span-columns(12);
+  text-align: center;
+  margin-bottom: 50px;
 
-    .subtitle{
-        padding: 0 .2rem .5rem .2rem;
-    }
+  .subtitle{
+    padding: 0 0.2rem 0.5rem;
+  }
 
 }
 
 .values{
-    @include span-columns(12);
-    text-align: center;
-    margin-bottom: 50px;
+  @include span-columns(12);
+  text-align: center;
+  margin-bottom: 50px;
 
-    .subtitle {
-        padding: 0 .2rem .5rem .2rem;
-    }
+  .subtitle {
+    padding: 0 0.2rem 0.5rem;
+  }
 }
 
 .support, .story {
-    background-image: -webkit-radial-gradient( white, #e4e9e5);
-    background-image: radial-gradient(   white, #e4e9e5);
-    text-align: center;
-    height: 100%;
-    padding: 60px 0;
+  background-image: -webkit-radial-gradient( $white, $paleblue);
+  background-image: radial-gradient(   $white, $paleblue);
+  text-align: center;
+  height: 100%;
+  padding: 60px 0;
 
-    p {
-        display: block;
-        width: 90%;
-        margin: 0 auto;
-        color: #282828;
-        color: $black;
-    }
+  p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: $black;
+  }
 }
 
 .story {
-    margin: 60px 0;
+  margin: 60px 0;
 }
 
 .profile-left {
+  display: block;
+  width: 100%;
+  margin-bottom: 80px;
+  padding-right: 12px;
+
+  img {
+    display: block;
+    width: 45%;
+    margin: 0 auto 20px auto;
+    box-shadow: 0.025rem 0.025rem 0.5rem $box-shadow;
+    border-radius: 5px;
+  }
+
+  h3 {
     display: block;
     width: 100%;
-    margin-bottom: 80px;
-    padding-right: 12px;
+    text-align: center;
+  }
 
-    img {
-        display: block;
-        width: 45%;
-        margin: 0 auto 20px auto;
-        box-shadow: .025rem .025rem .5rem #bdbec0;
-        border-radius: 5px;
-    }
-
-    h3 {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    p {
-        display: block;
-        width: 100%;
-        margin-top: 5px;
-    }
+  p {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+  }
 }
 
 .profile-center {
-    text-align: center;
-    margin-bottom: 80px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 
 .profile-right {
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-bottom: 80px;
+
+  img {
     display: block;
-    margin-right: 2.35765%;
+    width: 45%;
+    margin: 0 auto 20px auto;
+    box-shadow: 0.025rem 0.025rem 0.5rem $box-shadow;
+    border-radius: 5px;
+  }
+
+  h3 {
+    display: block;
     width: 100%;
-    margin-bottom: 80px;
+    text-align: center;
+  }
 
-    img {
-        display: block;
-        width: 45%;
-        margin: 0 auto 20px auto;
-        box-shadow: .025rem .025rem .5rem #bdbec0;
-        border-radius: 5px;
-    }
-
-    h3 {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    p {
-        display: block;
-        width: 100%;
-        margin-top: 5px;
-    }
+  p {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+  }
 }
 
 .code {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 
-    p {
-        margin-top: 10px;
-        color: #282828;
-    }
+  p {
+    margin-top: 10px;
+    color: $black;
+  }
 }
 
-.board, .contact {
-    float: left;
-    display: block;
-    width: 100%;
-    margin-right: 0px;
-    margin-bottom: 3rem;
-    text-align: center;
+.board,
+.contact {
+  float: left;
+  display: block;
+  width: 100%;
+  margin-right: 0px;
+  margin-bottom: 3rem;
+  text-align: center;
 }
