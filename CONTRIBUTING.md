@@ -2,6 +2,40 @@
 
 The GDI Dayton website is an open source project always accepting community input. See something that could be better? [Submit an issue](https://github.com/gdidayton/gdidayton/issues) to us, or [create a pull request](https://github.com/gdidayton/gdidayton/pulls) to make changes. Visit [GitHub's guide to contributing](https://guides.github.com/activities/contributing-to-open-source/) for more tips.
 
+## Architecture
+
+This is a [Jekyll-based](http://jekyllrb.com/) website designed to be published on the
+[GitHub Pages](https://help.github.com/categories/github-pages-basics/) platform.
+
+## Setup
+
+### Prerequisites
+
+#### Ruby
+
+Since this is a Jekyll-based website, you will need [Ruby](https://www.ruby-lang.org/en/). The best way to get
+Ruby is to install it via [rbenv](https://github.com/rbenv/rbenv). See the
+[rbenv installation instructions](https://github.com/rbenv/rbenv#installation)
+to set it up on your system.
+
+### Building and Previewing
+
+This site uses the ruby gem Jekyll. If you haven't already, run:
+
+`gem install jekyll`
+
+First, install Ruby gem dependencies:
+
+```
+bundle install
+```
+
+To start the project, in your root folder, run:
+
+`jekyll build && jekyll serve`
+
+A development server will start at http://localhost:4000/
+
 
 ### The Files Explained
 
@@ -51,3 +85,24 @@ The css folder contains the application.scss that is used to compile application
 The img folder contains the images used on the site.
 
 The javascript folder contains some jquery and other javascript scripts for the site. Some are left over from forking the GDI national site, and do not do anything.
+
+### Contributing content and code
+
+1. Fork the repository (or clone it if you have commit access)
+2. Create a feature branch
+3. Make your changes in the feature branch
+4. Commit the feature branch
+5. Push the feature branch to GitHub
+6. Open a pull request to merge the feature branch
+
+### Proposing changes and reporting issues
+
+The best way to contact us regarding this site is to [open an issue on GitHub](https://github.com/gdidayton/gdidayton/issues). Please submit a new issue if you need to:
+
+* Report a website bug
+* Propose a change to the website content
+
+## Deploying
+
+We make use of GitHub's continuous deployment system, which automatically
+deploys branches as soon as it detects a push to the gh-pages branch.
