@@ -1,7 +1,7 @@
 
 {% for class in site.data.materials %}
     <div class="material-container">
-      <a href={{ class.link | prepend: site.base.url }}>
+      <a aria-label={{class.title}} href={{ class.link | prepend: site.base.url }}>
         <div class="material-icon">
           <img alt={{class.img.alt}} height="80" src={{class.img.src}} />
         </div>

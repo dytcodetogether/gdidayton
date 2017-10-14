@@ -1,13 +1,13 @@
 
           {% for event in site.data.events %}
         <article class="card">
-            <a href={{ event.link | prepend: site.baseurl }}>
+            <a aria-label={{ event.title }} href={{ event.link | prepend: site.baseurl }}>
               <div class="thumb" style="background-image: url({{ event.image | prepend: site.baseurl }});"></div>
             </a>
             <div class="infos">
                 <h3 class="title">{{ event.title }}</h3>
                 <p class="date">{{ event.date }}</p>
-                <a href={{ event.link }} class="details">details</a>
+                <a aria-label={{ event.title }} href={{ event.link }} class="details">details</a>
             </div>
         </article>
     {% endfor %}
