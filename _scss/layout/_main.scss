@@ -90,6 +90,7 @@ hr {
   outline: 0;
 }
 
+
 .headline{
   text-align: center;
 
@@ -156,6 +157,24 @@ hr {
     }
   }
 }
+
+div.social {
+   i {
+    color: $gold;
+    &:hover{
+      color: #fff;
+    }
+  }
+  background-color: pink;
+  float: left;
+}
+
+.clear {
+  content:"";
+  display: block;
+  clear: both;
+}
+
 
 .underlined-headline {
   text-align: center;
