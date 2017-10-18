@@ -40,8 +40,5 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
 
-RUBY VERSION
-   ruby 2.2.4p230
-
 BUNDLED WITH
-   1.15.4
+   1.13.3
