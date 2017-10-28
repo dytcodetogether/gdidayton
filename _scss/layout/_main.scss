@@ -213,3 +213,62 @@ div.social {
   min-height: 100%;
   position: relative;
 }
+
+.collapsible {
+  margin-bottom: 2rem
+}
+
+.collapsible h3 {
+  color: #282828;
+  padding: 15px 0 7px 0;
+  border-bottom: 1px dashed #f95a61;
+  padding-bottom: .2rem
+}
+
+.collapsible h3+[aria-hidden] {
+  display: none
+}
+
+.collapsible h3+[aria-hidden="false"] {
+  display: block
+}
+
+.collapsible a {
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: .05rem;
+  font-weight: 300;
+  color: #f95a61;
+  font-style: italic;
+  font-size: medium
+}
+
+.collapsible .chevron-closed {
+  background: url(/img/chevron-closed.png);
+  background-repeat: no-repeat;
+  padding: 0px 8px
+}
+
+.collapsible .chevron-opened {
+  background: url(/img/chevron-opened.png);
+  background-repeat: no-repeat;
+  padding: 0px 8px
+}
+
+.faq h3 [aria-expanded] {
+  text-transform: none
+}
+
+h3 [aria-expanded] {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  text-transform: inherit;
+  text-align: inherit;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}

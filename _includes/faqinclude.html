@@ -1,0 +1,23 @@
+  {% assign count = 0 %}
+
+    {% for faq in site.data.faq %}
+    <h3><button aria-expanded="false" aria-controls="collapsible-0">
+          <span class="chevron-closed">&nbsp;</span>
+           {{ faq.title }} 
+          </button>
+        </h3>
+        <div id="collapsible-{{ count }}" aria-hidden="true">
+          <div>
+
+              {% if faq.custom %}
+                {% include {{ faq.custom }} %}
+              {% else %}
+            <p>
+                {{ faq.detail }}
+            </p>
+              {% endif %}
+            
+          </div>
+        </div>
+        {% assign count = count | plus: 1 %}
+    {% endfor %}
