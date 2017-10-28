@@ -245,6 +245,19 @@ hr {
       background-color: #000;
       color: #fbcfc6; }
 
+div.social {
+  background-color: pink;
+  float: left; }
+  div.social i {
+    color: #d8ae64; }
+    div.social i:hover {
+      color: #fff; }
+
+.clear {
+  content: "";
+  display: block;
+  clear: both; }
+
 .underlined-headline {
   text-align: center; }
   .underlined-headline hr {
