@@ -43,7 +43,7 @@ layout: default
         <h2>Our Leadership</h2>
       </div>
 
-      {% for bio in site.data.about_leadership_bios %}
+      {% for bio in site.data.about_leadership_bios.leadership %}
       <div class="profile-{{bio.column}}">
         <img alt="{{bio.name}}" src="{{ bio.image | prepend: site.baseurl }}" />
         <h3>{{bio.name}}{% if bio.title %}, {{bio.title}} {% endif %}</h3>
