@@ -43,7 +43,7 @@ layout: default
         <h2>Our Leadership</h2>
       </div>
 
-      {% for currBio in site.data.about_leadership_bios.leadership %}
+      {% for currBio in site.data.about_bios.leadership %}
       <div class="profile-{{currBio.column}}">
         <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
         <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
@@ -71,7 +71,7 @@ layout: default
         <h2>Our Staff</h2>
       </div>
 
-      {% for currBio in site.data.about_leadership_bios.staff %}
+      {% for currBio in site.data.about_bios.staff %}
       <div class="profile-{{currBio.column}}">
         <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
         <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
