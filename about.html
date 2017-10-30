@@ -45,7 +45,7 @@ layout: default
 
       {% for currBio in site.data.about_leadership_bios.leadership %}
       <div class="profile-{{currBio.column}}">
-        <img alt="{{currBio.name}}" src="{{ currBio.image | prepend: site.baseurl }}" />
+        <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
         <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
         {% for sociallink in currBio.sociallinks %}
            {% if forloop.first %}<div class="social">{% endif %}
@@ -73,7 +73,7 @@ layout: default
 
       {% for currBio in site.data.about_leadership_bios.staff %}
       <div class="profile-{{currBio.column}}">
-        <img alt="{{currBio.name}}" src="{{ currBio.image | prepend: site.baseurl }}" />
+        <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
         <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
         {% for sociallink in currBio.sociallinks %}
            {% if forloop.first %}<div class="social">{% endif %}
