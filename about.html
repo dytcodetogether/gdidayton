@@ -43,22 +43,21 @@ layout: default
         <h2>Our Leadership</h2>
       </div>
 
-      {% for bio in site.data.about_leadership_bios.leadership %}
-      <div class="profile-{{bio.column}}">
-        <img alt="{{bio.name}}" src="{{ bio.image | prepend: site.baseurl }}" />
-        <h3>{{bio.name}}{% if bio.title %}, {{bio.title}} {% endif %}</h3>
-        {% if bio.hassociallinks %}
-         <div class="social">
-           <a target="_blank" href="#" aria-label="Sara Cope Titter"><i class="fa fa-twitter"></i></a>
-           <a target="_blank" href="#" aria-label="Sara Cope Titter"><i class="fa fa-linkedin-square"></i></a>
-           <a target="_blank" href="http://www.google.com" aria-label="Sara Cope Website"><i class="fa fa-globe"></i>
-           <a target="_blank" href="mailto:#####" aria-label="Sara Cope Email"><i class="fa fa-envelope"></i>
-         </div>
-         {% endif %}
+      {% for currBio in site.data.about_leadership_bios.leadership %}
+      <div class="profile-{{currBio.column}}">
+        <img alt="{{currBio.name}}" src="{{ currBio.image | prepend: site.baseurl }}" />
+        <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
+        {% for sociallink in currBio.sociallinks %}
+           {% if forloop.first %}<div class="social">{% endif %}
+           <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
+             <i class="{{sociallink.inconclass}}"></i>
+           </a>
+           {% if forloop.last %} </div>{% endif %}
+        {% endfor %}
 
          <br class="clear" />
         <p>
-          {{bio.bio}}
+          {{currBio.bio}}
         </p>
       </div>
 
