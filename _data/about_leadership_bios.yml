@@ -35,8 +35,10 @@ staff:
     title: Instructor
     bio: Catherine is a web developer at Sparkbox, and teaches Intro to HTML/CSS with GDI. She has a B.S. in Art Education and a strong passion for teaching. Cat's other favorite things include reading, video games, tabletop games, oil painting, and boffer sports.
     image: /img/people/catmeade.jpg
+    column: left
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
     title: Instructor
     bio: Kevin is a software developer with Mile Two. He earned a B.S. in Computer Science from Wright State and has worked professionally as a software developer for 6 years. In his non-work time, he enjoys cross fit, video games, learning more about everything computer-related, and spending time with his wife and cats.
     image: /img/people/kevinjonesevans.jpg
+    column: right
