@@ -10,18 +10,18 @@ leadership:
         and supporting her local park system.
    image: /img/people/saracope.jpg
    sociallinks:
+     - label: Email
+       link: mailto:sarac@girldevelopit.com
+       inconclass: fa fa-envelope
      - label: Twitter
-       link: '#'
+       link: https://twitter.com/sarassassin
        inconclass: fa fa-twitter
      - label: LinkedIn
-       link: '#'
+       link: https://www.linkedin.com/in/saracope
        inconclass: fa fa-linkedin-square
-     - label: Website
-       link: http://www.google.com
-       inconclass: fa fa-globe
-     - label: Email
-       link: mailto:#####
-       inconclass: fa fa-envelope
+     - label: GitHub
+       link: https://www.github.com/saracope
+       inconclass: fa fa-github-alt
  - name: Katy Bowman
    title: Chapter Co-Lead
    bio: >
@@ -32,6 +32,22 @@ leadership:
           spending time with her husband and two kids, and reading and
           writing books.
    image: /img/people/katybowman.jpg
+   sociallinks:
+     - label: Email
+       link: mailto:katy@girldevelopit.com
+       inconclass: fa fa-envelope
+     - label: Website
+       link: http://k80bowman.com/
+       inconclass: fa fa-globe
+     - label: Twitter
+       link: https://twitter.com/k80bowman
+       inconclass: fa fa-twitter
+     - label: LinkedIn
+       link: https://www.linkedin.com/in/k80bowman
+       inconclass: fa fa-linkedin-square
+     - label: GitHub
+       link: https://www.github.com/k80bowman
+       inconclass: fa fa-github-alt
  - name: K.C. Jones-Evans
    imagename: KC Jones Evans
    title: Chapter Co-Lead
@@ -43,6 +59,22 @@ leadership:
         K.C. enjoys spending her free time doing cross fit, crocheting,
         discovering new food spots, and of course playing on her computer.
    image: /img/people/kcjonesevans.jpg
+   sociallinks:
+     - label: Email
+       link: mailto:kc@girldevelopit.com
+       inconclass: fa fa-envelope
+     - label: Website
+       link: http://www.kcjonesevans.com/
+       inconclass: fa fa-globe
+     - label: Twitter
+       link: https://twitter.com/kcjonesevans
+       inconclass: fa fa-twitter
+     - label: LinkedIn
+       link: https://www.linkedin.com/in/kcjonesevans
+       inconclass: fa fa-linkedin-square
+     - label: GitHub
+       link: https://www.github.com/kcjonesevans
+       inconclass: fa fa-github-alt
 staff:
   - name: Catherine Meade
     title: Instructor
@@ -52,6 +84,19 @@ staff:
           passion for teaching. Cat's other favorite things include reading,
           video games, tabletop games, oil painting, and boffer sports.
     image: /img/people/catmeade.jpg
+   sociallinks:
+     - label: Website
+       link: http://catheraaine.com/
+       inconclass: fa fa-globe
+     - label: Twitter
+       link: https://twitter.com/catheraaine
+       inconclass: fa fa-twitter
+     - label: LinkedIn
+       link: https://www.linkedin.com/in/catherine-meade-69678365
+       inconclass: fa fa-linkedin-square
+     - label: GitHub
+       link: https://www.github.com/catheraaine
+       inconclass: fa fa-github-alt
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
     title: Instructor
@@ -62,3 +107,13 @@ staff:
           enjoys cross fit, video games, learning more about everything
           computer-related, and spending time with his wife and cats.
     image: /img/people/kevinjonesevans.jpg
+   sociallinks:
+     - label: Twitter
+       link: https://twitter.com/kevinjonesevans
+       inconclass: fa fa-twitter
+     - label: LinkedIn
+       link: https://www.linkedin.com/in/kevin-jones-evans-74825435
+       inconclass: fa fa-linkedin-square
+     - label: GitHub
+       link: https://www.github.com/kevinjonesevans
+       inconclass: fa fa-github-alt

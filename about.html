@@ -49,21 +49,21 @@ layout: default
           <div class="profile-left">
         {% else %}
           <div class="profile-right">
-        {% endif %}    
+        {% endif %}
         <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
-        <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
-        {% for sociallink in currBio.sociallinks %}
-           {% if forloop.first %}<div class="social">{% endif %}
-           <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
-             <i class="{{sociallink.inconclass}}"></i>
-           </a>
-           {% if forloop.last %} </div>{% endif %}
-        {% endfor %}
+        <h3 class="dashedLineBelow">{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
 
          <br class="clear" />
         <p>
           {{currBio.bio}}
         </p>
+        {% for sociallink in currBio.sociallinks %}
+           {% if forloop.first %}<div class="social-links">{% endif %}
+           <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
+             <i class="{{sociallink.inconclass}}"></i>
+           </a>
+           {% if forloop.last %}</div>{% endif %}
+        {% endfor %}
       </div>
 
       {% endfor %}
