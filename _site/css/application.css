@@ -267,7 +267,11 @@ div.social-links a {
   border-radius: 50%;
   margin: 2px;
   padding-top: 6px;
-  text-align: center; }
+  text-align: center;
+  font-size: .8em; }
+div.social-links a:hover {
+  color: white;
+  background-color: #d8ae64; }
 
 .clear {
   content: "";
