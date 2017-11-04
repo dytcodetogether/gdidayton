@@ -253,6 +253,22 @@ div.social {
     div.social i:hover {
       color: #fff; }
 
+div.social-links i {
+  color: red; }
+  div.social-links i:hover {
+    background-color: #d8ae64;
+    color: #fff; }
+div.social-links a {
+  display: inline-block;
+  font-size: .8em;
+  height: 25px;
+  width: 25px;
+  color: #f95a61;
+  border-radius: 50%;
+  margin: 2px;
+  padding-top: 6px;
+  text-align: center; }
+
 .clear {
   content: "";
   display: block;
@@ -650,6 +666,10 @@ footer {
   margin-right: 0px;
   margin-bottom: 3rem;
   text-align: center; }
+
+.dashedLineBelow {
+  border-bottom: 1px dashed #f95a61;
+  padding-bottom: .2rem; }
 
 .intro {
   text-align: center;
