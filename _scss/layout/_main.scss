@@ -169,7 +169,11 @@ div.social {
   float: left;
 }
 
-div.social-links {
+div.social_links {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+
   i {
    color: red;
    &:hover{
