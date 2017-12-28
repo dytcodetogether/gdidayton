@@ -245,6 +245,21 @@ hr {
       background-color: #000;
       color: #fbcfc6; }
 
+div.social {
+  margin: 0.75rem 0;
+  text-align: center; }
+  div.social i {
+    color: #d8ae64;
+    font-size: 1.25rem;
+    margin: 0 0.75rem; }
+    div.social i:hover {
+      color: #2a4758; }
+
+.clear {
+  content: "";
+  display: block;
+  clear: both; }
+
 .underlined-headline {
   text-align: center; }
   .underlined-headline hr {

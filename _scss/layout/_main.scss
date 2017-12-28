@@ -91,7 +91,7 @@ hr {
 }
 
 
-.headline{
+.headline {
   text-align: center;
 
   img {
@@ -145,7 +145,8 @@ hr {
       color: $white;
     }
   }
-  &.media-links-rounded{
+  
+  &.media-links-rounded {
     a {
       font-size: 0.8em;
       color: white;
@@ -161,16 +162,18 @@ hr {
 div.social {
    i {
     color: $gold;
+    font-size: 1.25rem;
+    margin: 0 0.75rem;
     &:hover{
-      color: #fff;
+      color: $navy;
     }
   }
-  background-color: pink;
-  float: left;
+  margin: 0.75rem 0;
+  text-align: center;
 }
 
 .clear {
-  content:"";
+  content: "";
   display: block;
   clear: both;
 }
