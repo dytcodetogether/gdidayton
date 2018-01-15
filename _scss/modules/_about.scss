@@ -107,6 +107,21 @@
   }
 }
 
+.profile-links {
+  margin: 0.75rem 0;
+  text-align: center;
+}
+
+.profile-icon {
+  color: $gold;
+  font-size: 1.25rem;
+  margin: 0 0.75rem;
+
+  &:hover {
+    color: $navy;
+  }
+}
+
 .code {
   padding-bottom: 80px;
 
