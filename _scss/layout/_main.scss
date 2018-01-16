@@ -91,7 +91,7 @@ hr {
 }
 
 
-.headline{
+.headline {
   text-align: center;
 
   img {
@@ -145,7 +145,8 @@ hr {
       color: $white;
     }
   }
-  &.media-links-rounded{
+
+  &.media-links-rounded {
     a {
       font-size: 0.8em;
       color: white;
@@ -200,7 +201,7 @@ div.social_links {
 }
 
 .clear {
-  content:"";
+  content: "";
   display: block;
   clear: both;
 }

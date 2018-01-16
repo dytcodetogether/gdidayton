@@ -1,8 +1,20 @@
-- title: Intermediate JavaScript
-  date: November 4, 2017
-  link: https://www.meetup.com/preview/Girl-Develop-It-Dayton/events/243932091
-  image: /img/events/intermediate_javascript.png
-- title: Code & Coffee & Chocolate
-  date: November 8, 2017
-  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/242796059/
+- title: GDI Dayton 2018 Kickoff Happy Hour!!
+  date: Jan 24, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/246517725/
+  image: /img/events/2018_happy_hour.jpeg
+- title: Code & Coffee
+  date: Feb 10, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/qqcvdpyxdbnb/
   image: /img/events/event_code-coffee.jpg
+- title: Intro to Programming Concepts
+  date: Feb 24, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/245497295/
+  image: /img/events/event_intro_pc.png
+- title: Code & Coffee
+  date: March 10, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/bxcvdpyxfbnb/
+  image: /img/events/event_code-coffee.jpg
+- title: Intro to HTML & CSS
+  date: March 17, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/245505066/
+  image: /img/events/event_html-css.png
