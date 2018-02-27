@@ -1,7 +1,3 @@
-- title: Intro to Programming Concepts
-  date: Feb 24, 2018
-  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/245497295/
-  image: /img/events/event_intro_pc.png
 - title: Code & Coffee
   date: March 10, 2018
   link: https://www.meetup.com/Girl-Develop-It-Dayton/events/bxcvdpyxfbnb/
@@ -10,3 +6,15 @@
   date: March 17, 2018
   link: https://www.meetup.com/Girl-Develop-It-Dayton/events/245505066/
   image: /img/events/event_html-css.png
+- title: Code & Coffee
+  date: April 14, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/bxcvdpyxgbsb/
+  image: /img/events/event_code-coffee.jpg
+- title: Code & Coffee
+  date: May 12, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/bxcvdpyxhbqb/
+  image: /img/events/event_code-coffee.jpg
+- title: Code & Coffee
+  date: June 9, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/bxcvdpyxjbmb/
+  image: /img/events/event_code-coffee.jpg
