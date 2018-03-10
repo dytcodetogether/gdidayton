@@ -12,16 +12,16 @@ leadership:
    sociallinks:
      - label: Email
        link: mailto:sarac@girldevelopit.com
-       inconclass: fa fa-envelope
+       iconclass: fa fa-envelope
      - label: Twitter
        link: https://twitter.com/sarassassin
-       inconclass: fa fa-twitter
+       iconclass: fa fa-twitter
      - label: LinkedIn
        link: https://www.linkedin.com/in/saracope
-       inconclass: fa fa-linkedin-square
+       iconclass: fa fa-linkedin-square
      - label: GitHub
        link: https://www.github.com/saracope
-       inconclass: fa fa-github-alt
+       iconclass: fa fa-github-alt
  - name: Katy Bowman
    title: Chapter Co-Lead
    bio: >
@@ -35,19 +35,19 @@ leadership:
    sociallinks:
      - label: Email
        link: mailto:katy@girldevelopit.com
-       inconclass: fa fa-envelope
+       iconclass: fa fa-envelope
      - label: Website
        link: http://k80bowman.com/
-       inconclass: fa fa-globe
+       iconclass: fa fa-globe
      - label: Twitter
        link: https://twitter.com/k80bowman
-       inconclass: fa fa-twitter
+       iconclass: fa fa-twitter
      - label: LinkedIn
        link: https://www.linkedin.com/in/k80bowman
-       inconclass: fa fa-linkedin-square
+       iconclass: fa fa-linkedin-square
      - label: GitHub
        link: https://www.github.com/k80bowman
-       inconclass: fa fa-github-alt
+       iconclass: fa fa-github-alt
  - name: K.C. Jones-Evans
    imagename: KC Jones Evans
    title: Chapter Co-Lead
@@ -62,19 +62,19 @@ leadership:
    sociallinks:
      - label: Email
        link: mailto:kc@girldevelopit.com
-       inconclass: fa fa-envelope
+       iconclass: fa fa-envelope
      - label: Website
        link: http://www.kcjonesevans.com/
-       inconclass: fa fa-globe
+       iconclass: fa fa-globe
      - label: Twitter
        link: https://twitter.com/kcjonesevans
-       inconclass: fa fa-twitter
+       iconclass: fa fa-twitter
      - label: LinkedIn
        link: https://www.linkedin.com/in/kcjonesevans
-       inconclass: fa fa-linkedin-square
+       iconclass: fa fa-linkedin-square
      - label: GitHub
        link: https://www.github.com/kcjonesevans
-       inconclass: fa fa-github-alt
+       iconclass: fa fa-github-alt
 staff:
   - name: Catherine Meade
     title: Instructor
@@ -87,16 +87,16 @@ staff:
     sociallinks:
       - label: Website
         link: http://catheraaine.com/
-        inconclass: fa fa-globe
+        iconclass: fa fa-globe
       - label: Twitter
         link: https://twitter.com/catheraaine
-        inconclass: fa fa-twitter
+        iconclass: fa fa-twitter
       - label: LinkedIn
         link: https://www.linkedin.com/in/catherine-meade-69678365
-        inconclass: fa fa-linkedin-square
+        iconclass: fa fa-linkedin-square
       - label: GitHub
         link: https://www.github.com/catheraaine
-        inconclass: fa fa-github-alt
+        iconclass: fa fa-github-alt
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
     title: Instructor
@@ -110,10 +110,10 @@ staff:
     sociallinks:
       - label: Twitter
         link: https://twitter.com/kevinjonesevans
-        inconclass: fa fa-twitter
+        iconclass: fa fa-twitter
       - label: LinkedIn
         link: https://www.linkedin.com/in/kevin-jones-evans-74825435
-        inconclass: fa fa-linkedin-square
+        iconclass: fa fa-linkedin-square
       - label: GitHub
         link: https://www.github.com/kevinjonesevans
-        inconclass: fa fa-github-alt
+        iconclass: fa fa-github-alt

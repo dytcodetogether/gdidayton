@@ -60,7 +60,7 @@ layout: default
         {% for sociallink in currBio.sociallinks %}
            {% if forloop.first %}<div class="social_links">{% endif %}
            <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
-             <i class="{{sociallink.inconclass}}"></i>
+             <i class="{{sociallink.iconclass}}"></i>
            </a>
            {% if forloop.last %}</div>{% endif %}
         {% endfor %}
@@ -94,7 +94,7 @@ layout: default
         {% for sociallink in currBio.sociallinks %}
            {% if forloop.first %}<div class="social_links">{% endif %}
            <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
-             <i class="{{sociallink.inconclass}}"></i>
+             <i class="{{sociallink.iconclass}}"></i>
            </a>
            {% if forloop.last %} </div>{% endif %}
         {% endfor %}
