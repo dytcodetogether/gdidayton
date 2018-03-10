@@ -257,11 +257,14 @@ div.social_links {
   margin: auto;
   width: 50%;
   text-align: center; }
+
   div.social_links i {
     color: red; }
+
     div.social_links i:hover {
       background-color: #d8ae64;
       color: #fff; }
+
   div.social_links a {
     display: inline-block;
     font-size: .8em;
@@ -273,7 +276,10 @@ div.social_links {
     padding-top: 6px;
     text-align: center;
     font-size: .8em; }
-  div.social_links a:hover {
+
+  div.social_links a:hover,
+  div.social_links a:hover i,
+  div.social_links i:hover {
     color: white;
     background-color: #d8ae64; }
 
