@@ -248,34 +248,44 @@ hr {
 div.social {
   background-color: pink;
   float: left; }
-  div.social i {
-    color: #d8ae64; }
-    div.social i:hover {
-      color: #fff; }
+
+div.social i {
+  color: #d8ae64;
+}
+
+div.social i:hover {
+  color: #fff;
+}
 
 div.social_links {
   margin: auto;
   width: 50%;
-  text-align: center; }
-  div.social_links i {
-    color: red; }
-    div.social_links i:hover {
-      background-color: #d8ae64;
-      color: #fff; }
-  div.social_links a {
-    display: inline-block;
-    font-size: .8em;
-    height: 25px;
-    width: 25px;
-    color: #f95a61;
-    border-radius: 50%;
-    margin: 2px;
-    padding-top: 6px;
-    text-align: center;
-    font-size: .8em; }
-  div.social_links a:hover {
-    color: white;
-    background-color: #d8ae64; }
+  text-align: center;
+}
+
+div.social_links i {
+  color: red;
+}
+
+div.social_links a {
+  display: inline-block;
+  font-size: .8em;
+  height: 25px;
+  width: 25px;
+  color: #f95a61;
+  border-radius: 50%;
+  margin: 2px;
+  padding-top: 6px;
+  text-align: center;
+  font-size: .8em;
+}
+
+div.social_links a:hover,
+div.social_links a:hover i,
+div.social_links i:hover {
+  color: white;
+  background-color: #d8ae64;
+}
 
 .clear {
   content: "";
