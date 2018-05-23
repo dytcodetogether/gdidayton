@@ -10,18 +10,15 @@ leadership:
         and supporting her local park system.
    image: /img/people/saracope.jpg
    sociallinks:
-     - label: Email
-       link: mailto:sarac@girldevelopit.com
-       inconclass: fa fa-envelope
      - label: Twitter
        link: https://twitter.com/sarassassin
        inconclass: fa fa-twitter
      - label: LinkedIn
        link: https://www.linkedin.com/in/saracope
        inconclass: fa fa-linkedin-square
-     - label: GitHub
-       link: https://www.github.com/saracope
-       inconclass: fa fa-github-alt
+     - label: Email
+       link: mailto:sarac@girldevelopit.com
+       inconclass: fa fa-envelope
  - name: Katy Bowman
    title: Chapter Co-Lead
    bio: >
@@ -33,21 +30,18 @@ leadership:
           writing books.
    image: /img/people/katybowman.jpg
    sociallinks:
-     - label: Email
-       link: mailto:katy@girldevelopit.com
-       inconclass: fa fa-envelope
-     - label: Website
-       link: http://k80bowman.com/
-       inconclass: fa fa-globe
      - label: Twitter
        link: https://twitter.com/k80bowman
        inconclass: fa fa-twitter
      - label: LinkedIn
        link: https://www.linkedin.com/in/k80bowman
        inconclass: fa fa-linkedin-square
-     - label: GitHub
-       link: https://www.github.com/k80bowman
-       inconclass: fa fa-github-alt
+     - label: Website
+       link: http://k80bowman.com/
+       inconclass: fa fa-globe
+     - label: Email
+       link: mailto:katy@girldevelopit.com
+       inconclass: fa fa-envelope
  - name: K.C. Jones-Evans
    imagename: KC Jones Evans
    title: Chapter Co-Lead
@@ -60,21 +54,18 @@ leadership:
         discovering new food spots, and of course playing on her computer.
    image: /img/people/kcjonesevans.jpg
    sociallinks:
-     - label: Email
-       link: mailto:kc@girldevelopit.com
-       inconclass: fa fa-envelope
-     - label: Website
-       link: http://www.kcjonesevans.com/
-       inconclass: fa fa-globe
      - label: Twitter
        link: https://twitter.com/kcjonesevans
        inconclass: fa fa-twitter
      - label: LinkedIn
        link: https://www.linkedin.com/in/kcjonesevans
        inconclass: fa fa-linkedin-square
-     - label: GitHub
-       link: https://www.github.com/kcjonesevans
-       inconclass: fa fa-github-alt
+     - label: Website
+       link: http://www.kcjonesevans.com/
+       inconclass: fa fa-globe
+     - label: Email
+       link: mailto:kc@girldevelopit.com
+       inconclass: fa fa-envelope
 staff:
   - name: Catherine Meade
     title: Instructor
@@ -85,18 +76,15 @@ staff:
           video games, tabletop games, oil painting, and boffer sports.
     image: /img/people/catmeade.jpg
     sociallinks:
-      - label: Website
-        link: http://catheraaine.com/
-        inconclass: fa fa-globe
       - label: Twitter
         link: https://twitter.com/catheraaine
         inconclass: fa fa-twitter
       - label: LinkedIn
         link: https://www.linkedin.com/in/catherine-meade-69678365
         inconclass: fa fa-linkedin-square
-      - label: GitHub
-        link: https://www.github.com/catheraaine
-        inconclass: fa fa-github-alt
+      - label: Website
+        link: http://catheraaine.com/
+        inconclass: fa fa-globe
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
     title: Instructor
@@ -114,6 +102,3 @@ staff:
       - label: LinkedIn
         link: https://www.linkedin.com/in/kevin-jones-evans-74825435
         inconclass: fa fa-linkedin-square
-      - label: GitHub
-        link: https://www.github.com/kevinjonesevans
-        inconclass: fa fa-github-alt

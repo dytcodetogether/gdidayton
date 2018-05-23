@@ -51,19 +51,20 @@ layout: default
           <div class="profile-right">
         {% endif %}
         <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
-        <h3 class="dashedLineBelow">{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
+        <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
+
+        {% for sociallink in currBio.sociallinks %}
+          {% if forloop.first %}<div class="profile-links">{% endif %}
+            <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
+              <i class="profile-icon {{sociallink.inconclass}}"></i>
+            </a>
+          {% if forloop.last %}</div>{% endif %}
+        {% endfor %}
 
          <br class="clear" />
         <p>
           {{currBio.bio}}
         </p>
-        {% for sociallink in currBio.sociallinks %}
-           {% if forloop.first %}<div class="social_links">{% endif %}
-           <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
-             <i class="{{sociallink.inconclass}}"></i>
-           </a>
-           {% if forloop.last %}</div>{% endif %}
-        {% endfor %}
       </div>
 
       {% endfor %}
@@ -80,24 +81,23 @@ layout: default
       {% for currBio in site.data.about_bios.staff %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
-          <div class="profile-left">
-        {% else %}
           <div class="profile-right">
+        {% else %}
+          <div class="profile-left">
         {% endif %}
         <img alt={% if currBio.imagename %}"{{currBio.imagename}}"{% else %}"{{currBio.name}}"{% endif %} src="{{ currBio.image | prepend: site.baseurl }}" />
-        <h3 class="dashedLineBelow">{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
-
+        <h3>{{currBio.name}}{% if currBio.title %}, {{currBio.title}} {% endif %}</h3>
+        {% for sociallink in currBio.sociallinks %}
+           {% if forloop.first %}<div class="profile-links">{% endif %}
+            <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
+              <i class="profile-icon {{sociallink.inconclass}}"></i>
+            </a>
+           {% if forloop.last %} </div>{% endif %}
+        {% endfor %}
          <br class="clear" />
         <p>
           {{currBio.bio}}
         </p>
-        {% for sociallink in currBio.sociallinks %}
-           {% if forloop.first %}<div class="social_links">{% endif %}
-           <a target="_blank" href="{{sociallink.link}}" aria-label="{{currBio.name}} {{sociallink.label}}">
-             <i class="{{sociallink.inconclass}}"></i>
-           </a>
-           {% if forloop.last %} </div>{% endif %}
-        {% endfor %}
       </div>
 
       {% endfor %}
