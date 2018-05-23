@@ -245,6 +245,44 @@ hr {
       background-color: #000;
       color: #fbcfc6; }
 
+div.social {
+  background-color: pink;
+  float: left; }
+  div.social i {
+    color: #d8ae64; }
+    div.social i:hover {
+      color: #fff; }
+
+div.social_links {
+  margin: auto;
+  width: 50%;
+  text-align: center; }
+
+  div.social_links i {
+    color: red; }
+
+    div.social_links i:hover {
+      background-color: #d8ae64;
+      color: #fff; }
+
+  div.social_links a {
+    display: inline-block;
+    font-size: .8em;
+    height: 25px;
+    width: 25px;
+    color: #f95a61;
+    border-radius: 50%;
+    margin: 2px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: .8em; }
+
+  div.social_links a:hover,
+  div.social_links a:hover i,
+  div.social_links i:hover {
+    color: white;
+    background-color: #d8ae64; }
+
 .clear {
   content: "";
   display: block;
@@ -471,9 +509,9 @@ footer {
 .mission-statement {
   float: left;
   display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
-  margin-left: 8.5298%;
+  margin-right: 2.3576515979%;
+  width: 82.9403914003%;
+  margin-left: 8.5298042998%;
   text-align: center;
   position: relative;
   padding: 0px 0px 50px 0px; }
@@ -505,8 +543,8 @@ footer {
     text-align: center;
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
+    margin-right: 2.3576515979%;
+    width: 31.7615656014%; }
     .stats-section .stats:last-child {
       margin-right: 0; }
     .stats-section .stats:nth-child(3n) {
@@ -536,7 +574,7 @@ footer {
 .mission {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576515979%;
   width: 100%;
   text-align: center;
   margin-bottom: 50px; }
@@ -548,7 +586,7 @@ footer {
 .vision {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576515979%;
   width: 100%;
   text-align: center;
   margin-bottom: 50px; }
@@ -560,7 +598,7 @@ footer {
 .values {
   float: left;
   display: block;
-  margin-right: 2.35765%;
+  margin-right: 2.3576515979%;
   width: 100%;
   text-align: center;
   margin-bottom: 50px; }
@@ -654,6 +692,10 @@ footer {
   margin-bottom: 3rem;
   text-align: center; }
 
+.dashedLineBelow {
+  border-bottom: 1px dashed #f95a61;
+  padding-bottom: .2rem; }
+
 .intro {
   text-align: center;
   margin-bottom: 50px; }
@@ -663,7 +705,7 @@ footer {
 .headline {
   float: left;
   display: block;
-  margin-right: 3.57866%;
+  margin-right: 3.5786636068%;
   width: 100%;
   margin-right: 0; }
   .headline:last-child {
@@ -678,7 +720,7 @@ footer {
 .materials {
   float: left;
   display: block;
-  margin-right: 3.57866%;
+  margin-right: 3.5786636068%;
   width: 100%;
   margin-right: 0;
   margin-bottom: 20px; }
@@ -899,27 +941,27 @@ footer {
   .mission {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%; }
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
     .mission:last-child {
       margin-right: 0; }
 
   .vision {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%; }
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
     .vision:last-child {
       margin-right: 0; }
 
   .values {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%; }
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
     .values:last-child {
       margin-right: 0; }
 
@@ -955,9 +997,9 @@ footer {
   .intro {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 82.94039%;
-    margin-left: 8.5298%; }
+    margin-right: 2.3576515979%;
+    width: 82.9403914003%;
+    margin-left: 8.5298042998%; }
     .intro:last-child {
       margin-right: 0; }
 
