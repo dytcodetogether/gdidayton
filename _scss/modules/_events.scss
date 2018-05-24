@@ -1,22 +1,42 @@
 .event-list {
 	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+
+  @include breakpoint-tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 	article.card {
 		width: 80%;
-		text-align:left;
-		border-radius:$border-radius;
-		margin: 15px 0;
-		box-shadow:$box-shadow;
-		overflow:hidden;
-		//
+		text-align: left;
+		border-radius: $border-radius;
+		margin: 1em auto;
+		box-shadow: $box-shadow;
+		overflow: hidden;
+
+    @include breakpoint-tablet {
+      width: 50%;
+      flex-basis: calc(50% - 2em); // This properly resizes the width within Flexbox
+      margin: 1em;
+    }
+
+    @include breakpoint-desktop {
+      width: 30%;
+      flex-basis: calc(30% - 2em); // This properly resizes the width within Flexbox
+    }
+
 		.thumb {
-		 	@include size(auto, 200px);
+      width: 100%;
 		 	background: no-repeat center center;
-			background-size:cover;
-			border-radius:$border-radius;
+			background-size: cover;
+			border-radius: $border-radius;
+
+      &::after {
+        display:block;
+        content:'';
+        padding-top: 50%;
+      }
 		}
 
 		.infos {
@@ -26,8 +46,8 @@
 			align-items: flex-start;
 			width: auto;
 			height: 150px;
-			padding:14px 24px;
-			background:$white;
+			padding: 14px 24px;
+			background: $white;
 
 			.title {
 				letter-spacing: 3px;
@@ -44,11 +64,11 @@
 
 			.details {
 				letter-spacing: 1px;
-				color:$smalt-blue;
+				color: $smalt-blue;
 				font-family: $grotesque-black;
 				text-transform: uppercase;
 				text-decoration: none;
-				cursor:pointer;
+				cursor: pointer;
 			}
 		}
 	}

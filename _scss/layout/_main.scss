@@ -1,181 +1,205 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin:0;
-    padding:0;
-    height:100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 hr {
-    border: 0;
-    border-top: 2px solid $pink;
-    border-bottom: 2px solid $pink;
-    background: transparent;
-    height: 6px;
+  border: 0;
+  border-top: 2px solid $pink;
+  border-bottom: 2px solid $pink;
+  background: transparent;
+  height: 6px;
 }
 
 .accordion {
-    margin: 0 0 60px 0px;
-    .hidden {
-        height: 38px;
+  margin: 0 0 60px 0px;
+
+  .hidden {
+    height: 2.375rem;
   }
-    section {
-        overflow: hidden;
-        transition: height .5s ease-in-out;
-        @extend %dashed-border;
-    }
-    h2 {
-        cursor: pointer;
-        color: $black;
-        padding: 15px 0 7px 0;
-    }
-    a {
-        text-transform: none;
-        letter-spacing: .05rem;
-        font-weight: 300;
-        color: $pink;
-        font-style: italic;
-    }
+
+  section {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    @extend %dashed-border;
+  }
+
+  h2 {
+    cursor: pointer;
+    color: $black;
+    padding: 15px 0 7px 0;
+  }
+
+  a {
+    text-transform: none;
+    letter-spacing: 0.05rem;
+    font-weight: 300;
+    color: $pink;
+    font-style: italic;
+  }
 }
 
 .button {
-    display: inline-block;
-    font-weight: 700;
-    color: $navy;
-    font-size: .8rem;
-    text-transform: uppercase;
-    letter-spacing: .14rem;
-    background-color: $gold;
-    padding: .5rem 1rem;
-    border: none;
-    &:hover {
-        background-color: $black;
-        color: $blush;
-    }
-    &.donate-button {
-        border: 0;
-        background: $pink;
-        font-size: 1.2rem;
-        padding: 10px 20px;
-        margin: 20px auto;
-        cursor: pointer;
-    }
+  display: inline-block;
+  font-weight: 700;
+  color: $navy;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14rem;
+  background-color: $gold;
+  padding: 0.5rem 1rem;
+  border: none;
+
+  &:hover {
+    background-color: $black;
+    color: $blush;
+  }
+
+  &.donate-button {
+    border: 0;
+    background: $pink;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 20px auto;
+    cursor: pointer;
+  }
 }
 
 .container {
-    @include outer-container;
-    width: 90%;
-    max-width: 100%;
-    margin: auto;
-    padding-top: 20px;
+  @include outer-container;
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 20px;
 }
 
 %dashed-border {
-    border-bottom: 1px dashed $pink;
-    padding-bottom: .2rem;
+  border-bottom: 1px dashed $pink;
+  padding-bottom: 0.2rem;
 }
 
 .main-content {
-    outline: 0;
+  outline: 0;
 }
 
-.headline{
-    text-align: center;
-    img {
-        height: 35px;
-        display: block;
-        margin: auto;
-    }
-    h2 {
-        @extend %dashed-border;
-        font-weight: 300;
-        color: $navy;
-        padding: 0px 5px 6px 5px;
-        display: inline-block;
-        margin: .5rem auto 3rem auto;
-    }
+
+.headline {
+  text-align: center;
+
+  img {
+    height: 2.1875rem;
+    display: block;
+    margin: auto;
+  }
+
+  h2 {
+    @extend %dashed-border;
+    font-weight: 300;
+    color: $navy;
+    padding: 0px 5px 6px 5px;
+    display: inline-block;
+    margin: 0.5rem auto 3rem auto;
+  }
 }
 
 .mapTooltip {
-    background-color: #f95a61;
-    position: fixed;
-    font-family: $body-font-stack;
-    padding: 6px;
-    font-size: .85em;
-    color: #fff;
-    letter-spacing: .06rem;
-    font-weight: 300;
+  background-color: $pink;
+  position: fixed;
+  font-family: $body-font-stack;
+  padding: 6px;
+  font-size: 0.85em;
+  color: $white;
+  letter-spacing: 0.06rem;
+  font-weight: 300;
 }
 
 .media-links {
-    padding: 0px;
-    margin: 1em -.45em 1.5em -.45em;
-    li {
-        display: inline;
+  padding: 0px;
+  margin: 1em -0.45em 1.5em;
+
+  li {
+    display: inline;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 0.8em;
+    height: 1.5625rem;
+    width: 1.5625rem;
+    color: $pink;
+    border-radius: 50%;
+    margin: 2px;
+    padding-top: 6px;
+    text-align: center;
+
+    &:hover {
+      background: $gold;
+      color: $white;
     }
+  }
+
+  &.media-links-rounded {
     a {
-        display: inline-block;
-        font-size: .8em;
-        height: 25px;
-        width: 25px;
-        color: $pink;
-        border-radius: 50%;
-        margin: 2px;
-        padding-top: 6px;
-        text-align: center;
-        &:hover {
-            background: $gold;
-            color: #fff;
-        }
+      font-size: 0.8em;
+      color: white;
+      background-color: $gold;
+      &:hover {
+        background-color: $black;
+        color: $blush;
+      }
     }
-    &.media-links-rounded{
-        a {
-            font-size: .8em;
-            color: white;
-            background-color: $gold;
-            &:hover {
-                background-color: $black;
-                color: $blush;
-            }
-        }
-    }
+  }
 }
 
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
 .underlined-headline {
-    text-align: center;
-    hr {
-        width: 100%;
-        border-top: 2px solid $gold;
-        border-bottom: 2px solid $gold;
-        margin-bottom: 30px;
-    }
-    h2 {
-        font-size: 1.5rem;
+  text-align: center;
+
+  hr {
+    width: 100%;
+    border-top: 2px solid $gold;
+    border-bottom: 2px solid $gold;
+    margin-bottom: 1.875rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: $black;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+  .subtitle {
+    margin-top: -1.25rem;
+
+    a {
+      color: $pink;
+
+      &:hover {
         color: $black;
-        font-weight: 300;
-        letter-spacing: .1rem;
+      }
     }
-    .subtitle {
-        margin-top: -20px;
-        a {
-            color: $pink;
-            &:hover {
-                color: $black;
-            }
-        }
-    }
+  }
 }
 
 .fork-me {
-    display: none;
+  display: none;
 }
 
 .wrapper {
-    min-height: 100%;
-    position:relative;
+  min-height: 100%;
+  position: relative;
 }

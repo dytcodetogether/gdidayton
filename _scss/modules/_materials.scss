@@ -1,138 +1,143 @@
 .intro{
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 
-    p {
-        color: $black;
-    }
+  p {
+    color: $black;
+  }
 }
 
 .headline {
-    @include span-columns(8 of 8);
-    @include omega();
+  @include span-columns(8 of 8);
+  @include omega();
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .materials {
-    @include span-columns(8 of 8);
-    @include omega();
-    margin-bottom: 20px;
+  @include span-columns(8 of 8);
+  @include omega();
+  margin-bottom: 20px;
 
-    .read-more {
-        color: $gold;
-        font-style: italic;
-        &:hover {
-            color: $pink;
-        }
+  .read-more {
+    color: $gold;
+    font-style: italic;
+    &:hover {
+      color: $pink;
     }
+  }
 
-    .button {
-        margin: 10px 0 55px 0;
-        background-color: $paleblue;
-        color: $pink;
-        &:hover{
-            background-color: $pink;
-            color: white;
-        }
-    }
+  .button {
+    margin: 10px 0 55px;
+    background-color: $paleblue;
+    color: $pink;
 
-    .uhOh {
-        text-align: center;
+    &:hover{
+      background-color: $pink;
+      color: white;
     }
+  }
+
+  .uhOh {
+    text-align: center;
+  }
 }
 
 //Materials Index
 .material-index{
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .materials-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .material-container{
-    width: 100%;
-    background-color:$paleblue;
-    padding:10px;
-    margin-bottom: 2em;
-    -moz-transition: background, .5s;
-    -webkit-transition: background, .5s;
-    transition: background, .5s;
-    &:hover {
-        background-color: $blush;
-    }
+  width: 100%;
+  background-color: $paleblue;
+  padding: 10px;
+  margin-bottom: 2em;
+  -moz-transition: background, 0.5s;
+  -webkit-transition: background, 0.5s;
+  transition: background, 0.5s;
 
-    h2 {
-        margin: 10px 0 0 0;
-        line-height: 1.3rem;
-    }
+  &:hover {
+    background-color: $blush;
+  }
 
-    hr {
-        width: 55%;
-    }
+  h2 {
+    margin: 10px 0 0;
+    line-height: 1.3rem;
+  }
 
-    img {
-        float:left;
-    }
+  hr {
+    width: 55%;
+  }
 
-    h3 {
-        text-transform: none;
-        letter-spacing: .08rem;
-        font-weight: 300;
+  img {
+    float:left;
+  }
 
-        a {
-            color: $gray;
-            &:hover {
-                color: $pink;
-            }
-        }
+  h3 {
+    text-transform: none;
+    letter-spacing: 0.08rem;
+    font-weight: 300;
+
+    a {
+      color: $gray;
+
+      &:hover {
+        color: $pink;
+      }
     }
+  }
 
 }
 .material-icon {
-    float:left;
-    width: auto;
-    margin-right: 1em;
+  float:left;
+  width: auto;
+  margin-right: 1em;
 }
 
 .class-slides, .practice-files {
-    h3 {
-        line-height: 3rem;
-        margin-top: .5em;
-    }
 
-    a {
-        color: $gray;
-        &:hover {
-            color: $pink;
-        }
-    }
+  h3 {
+    line-height: 3rem;
+    margin-top: 0.5rem;
+  }
 
-    li {
-        padding: .5em 0 ;
+  a {
+    color: $gray;
+
+    &:hover {
+      color: $pink;
     }
+  }
+
+  li {
+    padding: 0.5rem 0 ;
+  }
 }
 
 .github-fork {
-    background-color: $pink;
-    padding: .5em;
-    margin: 2em 0;
+  background-color: $pink;
+  padding: 0.5rem;
+  margin: 2rem 0;
+  color: $white;
+
+  a {
     color: $white;
+  }
 
-    a {
-        color: $white;
-    }
-
-    img {
-        vertical-align:middle;
-    }
+  img {
+    vertical-align: middle;
+  }
 }
