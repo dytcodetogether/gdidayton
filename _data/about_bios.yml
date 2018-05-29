@@ -66,28 +66,35 @@ leadership:
      - label: Email
        link: mailto:kc@girldevelopit.com
        inconclass: fa fa-envelope
+ - name: Catherine Meade
+   imagename: Catherine Meade
+   title: Chapter Co-Lead
+   bio: >
+        Catherine builds responsive websites up and down the stack with 
+          Sparkbox, focusing recently on a single enterprise level design 
+          system. Catherine has a strong passion for education; she spends 
+          her free time volunteering with Girl Develop It, sitting on the 
+          local leadership team and teaching code classes. Her other 
+          hobbies include reading, video and tabletop games, and making 
+          cat jokes.
+   image: /img/people/catmeade.jpg
+   sociallinks:
+     - label: Twitter
+       link: https://twitter.com/catheraaine
+       inconclass: fa fa-twitter
+     - label: LinkedIn
+       link: https://www.linkedin.com/in/catherine-meade-69678365
+       inconclass: fa fa-linkedin-square
+     - label: Website
+       link: http://www.catheraaine.com/
+       inconclass: fa fa-globe
+     - label: Email
+       link: mailto:cat@girldevelopit.com
+       inconclass: fa fa-envelope
 staff:
-  - name: Catherine Meade
-    title: Instructor
-    bio: >
-          Catherine is a web developer at Sparkbox, and teaches Intro to
-          HTML/CSS with GDI. She has a B.S. in Art Education and a strong
-          passion for teaching. Cat's other favorite things include reading,
-          video games, tabletop games, oil painting, and boffer sports.
-    image: /img/people/catmeade.jpg
-    sociallinks:
-      - label: Twitter
-        link: https://twitter.com/catheraaine
-        inconclass: fa fa-twitter
-      - label: LinkedIn
-        link: https://www.linkedin.com/in/catherine-meade-69678365
-        inconclass: fa fa-linkedin-square
-      - label: Website
-        link: http://catheraaine.com/
-        inconclass: fa fa-globe
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
-    title: Instructor
+    title: Organizer
     bio: >
           Kevin is a software developer with Mile Two. He earned a B.S. in
           Computer Science from Wright State and has worked professionally
@@ -102,3 +109,20 @@ staff:
       - label: LinkedIn
         link: https://www.linkedin.com/in/kevin-jones-evans-74825435
         inconclass: fa fa-linkedin-square
+  - name: Ren Cummings
+    imagename: Ren Cummings
+    title: Organizer
+    bio: >
+          Ren is a developer and designer at Mile Two. She has an enthusiasm 
+          for learning and creative problem-solving. She has a masters and 
+          bachelors in fine arts. Some other things she enjoys include running, 
+          comics, and digital illustration.
+    image: /img/people/rencummings.png
+    sociallinks:
+      - label: Twitter
+        link: https://twitter.com/stories_of_ren
+        inconclass: fa fa-twitter
+      - label: LinkedIn
+        link: https://www.linkedin.com/in/rencummings
+        inconclass: fa fa-linkedin-square
+      
