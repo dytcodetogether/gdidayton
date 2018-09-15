@@ -1,4 +1,33 @@
+- title: JavaScript 101
+  date: September 22, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/254087056/
+  image: /img/events/event_javascript.png
 - title: Code & Coffee & 3D Printing
   date: October 13, 2018
   link: https://www.meetup.com/Girl-Develop-It-Dayton/events/mkrkdqyxnbrb/
   image: /img/events/event_code-coffee.jpg
+- title: Code Collaboration using Version Control
+  date: October 20, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/254329383/
+  image: /img/events/event_git.png
+- title: Hacktoberfest 2018
+  date: October 24, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/254349579/
+  image: /img/events/Hacktoberfest_2018.png
+- title: Photoshop 101
+  date: November 3, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/253185979/
+  image: /img/events/event_photoshop_101.png
+- title: Code & Coffee 
+  date: November 10, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/mkrkdqyxpbnb/
+  image: /img/events/event_code-coffee.jpg
+- title: Intro to SQL 
+  date: November 17, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/254376142/
+  image: /img/events/event_sql.png
+- title: Code & Coffee 
+  date: December 8, 2018
+  link: https://www.meetup.com/Girl-Develop-It-Dayton/events/mkrkdqyxqblb/
+  image: /img/events/event_code-coffee.jpg
+
