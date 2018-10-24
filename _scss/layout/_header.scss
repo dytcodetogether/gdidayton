@@ -42,9 +42,6 @@ header {
       letter-spacing: 0.05rem;
       padding: 0.75rem;
       margin-bottom: 0em;
-      :hover{
-        background-color: yellow;
-      }
       &.active-nav, &:hover{
         background-color: $black;
         color: $blush;
