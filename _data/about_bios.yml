@@ -1,7 +1,7 @@
 
 leadership:
  - name: Sara Cope
-   title: Chapter Lead, Co-founder
+   title: Founding Chapter Leader, Code & Coffee Organizer
    bio: >
         Sara Cope is currently a developer with GSA Digital Service, and CSS
         guru with over 10 years of experience. She has a B.S. in Management
@@ -17,7 +17,7 @@ leadership:
        link: https://www.linkedin.com/in/saracope
        inconclass: fa fa-linkedin-square
      - label: Email
-       link: mailto:sarac@girldevelopit.com
+       link: mailto:s010sdc@gmailcom
        inconclass: fa fa-envelope
  - name: Katy Bowman
    title: Chapter Co-Lead
