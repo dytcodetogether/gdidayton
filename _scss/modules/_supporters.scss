@@ -45,3 +45,36 @@
 .logo-container {
   align-content: center;
 }
+.margintop{
+  margin-top: 2em;
+}
+.list-to-support{
+  margin: 1em auto;
+  ul{
+    list-style: none;
+    text-decoration: none;
+  }
+  li{
+    text-align: center;
+  }
+}
+h3:last-child {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.supporters{
+  text-align: center;
+  div:last-child{
+    margin-top: 2em;
+  }
+  a{
+    color:#01595F;
+    &:hover{
+      color:#f95a61;
+    }
+  }
+  .slack-link{
+    margin-top: 1em;
+  }
+}

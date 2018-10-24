@@ -770,6 +770,32 @@ footer {
 .logo-container {
   align-content: center; }
 
+.margintop {
+  margin-top: 2em; }
+
+.list-to-support {
+  margin: 1em auto; }
+  .list-to-support ul {
+    list-style: none;
+    text-decoration: none; }
+  .list-to-support li {
+    text-align: center; }
+
+h3:last-child {
+  margin-top: 1.5em;
+  text-align: center; }
+
+.supporters {
+  text-align: center; }
+  .supporters div:last-child {
+    margin-top: 2em; }
+  .supporters a {
+    color: #01595F; }
+    .supporters a:hover {
+      color: #f95a61; }
+  .supporters .slack-link {
+    margin-top: 1em; }
+
 .errors {
   text-align: center;
   background: asset-url("photo3.png");
