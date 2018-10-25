@@ -7,16 +7,9 @@
     <title>Girl Develop It</title>
     <link rel="icon" href="{{ site.baseurl }}/img/favicon.png" />
     <link href="{{ site.baseurl }}/css/application.css" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" />
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-92693101-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" media="none" onload="if(media!='all')media='all'" />
+
 </head>
 
 <body>
@@ -70,7 +63,7 @@
                     <nav class="navigation">
                         <a target="_blank" href="http://www.meetup.com/Girl-Develop-It-Dayton/" aria-label="GDI Meetup"><i class="fa fa-calendar fa-3x"></i></a>
                         <a target="_blank" href="https://twitter.com/gdidayton" aria-label="GDI Dayton Twitter"><i class="fa fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.facebook.com/gditdayton" aria-label="GDI Dayton Facebook"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/gdidayton" aria-label="GDI Dayton Facebook"><i class="fa fa-facebook"></i></a>
                         <a target="_blank" href="https://gdidayton.herokuapp.com/" aria-label="GDI Dayton Slack"><i class="fa fa-slack"></i></a>
                         <a target="_blank" href="https://github.com/gdidayton" aria-label="GDI Dayton Github"><i class="fa fa-github"></i></a>
                         <a target="_blank" href="mailto:dayton@girldevelopit.com" aria-label="GDI Dayton Email">
@@ -80,7 +73,14 @@
                 </div>
             </div>
         </footer>
-
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-92693101-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 
 </html>

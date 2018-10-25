@@ -90,7 +90,8 @@ hr {
   outline: 0;
 }
 
-.headline{
+
+.headline {
   text-align: center;
 
   img {
@@ -144,7 +145,8 @@ hr {
       color: $white;
     }
   }
-  &.media-links-rounded{
+
+  &.media-links-rounded {
     a {
       font-size: 0.8em;
       color: white;
@@ -156,6 +158,13 @@ hr {
     }
   }
 }
+
+.clear {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 .underlined-headline {
   text-align: center;

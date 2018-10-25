@@ -15,12 +15,18 @@
   link: https://gdidayton.github.io/intro-to-ruby/index.html#/
   img:
     alt: Introduction to Ruby image
-    src: /img/ruby.png
+    src: http://gdidayton.com/img/ruby.png
 - title: Introduction to JavaScript
   subtitle: JavaScript and programming fundamentals for beginners
   link: https://gdidayton.github.io/gdi-featured-js-intro/
   img:
     alt: Introduction to JavaScript image
+    src: https://girl-develop-it.s3.amazonaws.com/uploads/material/icon/6/materials_javascript.png
+- title: Intermediate JavaScript
+  subtitle: Intermediate level programming using JavaScript
+  link: https://gdidayton.github.io/gdi-intermediate-js/index.html#/
+  img:
+    alt: Intermediate JavaScript image
     src: https://girl-develop-it.s3.amazonaws.com/uploads/material/icon/6/materials_javascript.png
 - title: Introduction to Programming Concepts
   subtitle: Fundamentals for beginners
@@ -33,4 +39,4 @@
   link: https://gdidayton.github.io/intro-to-python/#/
   img:
     alt: Introduction to Python image
-    src: /img/python-logo.png
+    src: http://gdidayton.com/img/python-logo.png
