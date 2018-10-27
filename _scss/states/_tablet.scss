@@ -60,26 +60,6 @@
         }
     }
 
-    //modules/home-page.scss
-    .opener {
-        h1 {
-            padding-top: 5rem;
-            font-size: 2.5rem;
-            line-height: 3rem;
-            padding: 5rem 1rem 1rem 1rem
-        }
-        h2 {
-
-            font-size: 2.25rem;
-            //padding: 1rem 1rem .5rem 1rem;
-            line-height: 3rem;
-
-        }
-        .hide {
-            display: inline;
-        }
-    }
-
     //modules/materials.scss
     .intro {
         @include span-columns(10);
@@ -101,14 +81,5 @@
             font-size: 3.5rem;
             padding-top: 100px;
         }
-    }
-}
-
-@include breakpoint-tablet-min-max {
-    //modules/home-page.scss
-    .opener {
-        height: 300px;
-        width: 100%;
-        background-position: 30% 0%;
     }
 }
