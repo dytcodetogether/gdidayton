@@ -14,24 +14,9 @@
 
 <body>
     <div id="wrapper">
-        <a id="skipnav" href="#main-content">Skip to main content</a>
+        <a class="skiplink" href="#main-content">Skip to main content</a>
 
-
-        <header>
-            <div class="container">
-                <a class="logo" href="{{ site.baseurl }}/"><img alt="GDI Dayton logo" src="{{ site.baseurl }}/img/gdi-dayton-logo.png" /></a>
-                <nav class="navigation">
-                    <ul>
-                        <li><a href="{{ site.baseurl }}/about">about</a></li>
-                        <li><a target="_blank" href="http://www.meetup.com/Girl-Develop-It-Dayton/">events</a></li>
-                        <li><a href="{{ site.baseurl }}/materials">materials</a></li>
-                        <li><a href="{{ site.baseurl }}/supporters">supporters</a></li>
-                        <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHItOWdmcNNKyAuRw1f1V5ovvZMdJk3qqCxjpMuyTNkIkJdQ/viewform">contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
+        {% include header.html %}
 
         {{ content }}
 

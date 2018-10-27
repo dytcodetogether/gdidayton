@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="site-header-container">
+    <a class="logo-link" href="{{ site.baseurl }}/">
+      <img alt="Girl Develop It Dayton" class="logo" src="{{ site.baseurl }}/img/gdi-dayton-logo.png" />
+    </a>
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="navigation-link{% if page.url == '/about/' %} is-active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" target="_blank" href="http://www.meetup.com/Girl-Develop-It-Dayton/">Events</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link{% if page.url == '/materials/' %} is-active{% endif %}" href="{{ site.baseurl }}/materials">Materials</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link{% if page.url == '/supporters/' %} is-active{% endif %}" href="{{ site.baseurl }}/supporters">Supporters</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHItOWdmcNNKyAuRw1f1V5ovvZMdJk3qqCxjpMuyTNkIkJdQ/viewform">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+

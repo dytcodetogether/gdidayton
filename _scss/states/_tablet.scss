@@ -10,35 +10,6 @@
         padding-top: 85px;
     }
 
-    //layout/header.scss
-    header {
-        height: 100px;
-
-        .logo {
-            padding-bottom: 0px;
-            margin: 0 auto;
-        }
-
-        nav {
-            float: right;
-            margin: 0;
-            ul {
-                float: left;
-                text-align: center;
-            }
-            li {
-                display: inline-block;
-            }
-            a {
-                padding: 3rem 1rem 3rem 1rem;
-                &:hover {
-                    background-color: $navy;
-                    color: $blush;
-                }
-            }
-        }
-    }
-
     //layout/footer.scss
     footer {
         p.subtitle {
