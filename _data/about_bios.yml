@@ -91,7 +91,7 @@ leadership:
      - label: Email
        link: mailto:cat@girldevelopit.com
        inconclass: fa fa-envelope
-staff:
+team:
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
     title: Organizer
