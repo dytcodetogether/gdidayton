@@ -71,14 +71,14 @@ layout: default
 
     </div>
 
-{% if site.data.about_bios.staff %}
+{% if site.data.about_bios.team %}
     <div class="container">
       <div class="headline">
         <img alt="Flourish" src="{{ site.baseurl }}/img/flourish.png" />
-        <h2>Our Staff</h2>
+        <h2>Our Team</h2>
       </div>
 
-      {% for currBio in site.data.about_bios.staff %}
+      {% for currBio in site.data.about_bios.team %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
           <div class="profile-right">

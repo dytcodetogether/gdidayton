@@ -91,7 +91,7 @@ leadership:
      - label: Email
        link: mailto:cat@girldevelopit.com
        inconclass: fa fa-envelope
-staff:
+team:
   - name: Kevin Jones-Evans
     imagename: Kevin Jones Evans
     title: Organizer
@@ -125,4 +125,22 @@ staff:
       - label: LinkedIn
         link: https://www.linkedin.com/in/rencummings
         inconclass: fa fa-linkedin-square
-      
+  - name: Heather Tayler
+    imagename: Heather Tayler
+    title: Organizer
+    bio: >
+          Heather is a graphic designer who transitioned into web development.
+          As a frontend developer she finds great satisfaction in bringing design
+          concepts to life via writing beautiful, clean, responsive, and
+          accessible code.
+    image: /img/people/heathertayler.png
+    sociallinks:
+      - label: Twitter
+        link: https://twitter.com/heatherhonie
+        inconclass: fa fa-twitter
+      - label: Website
+        link: http://www.heathercancode.com/
+        inconclass: fa fa-globe
+      - label: LinkedIn
+        link: https://www.linkedin.com/in/heatherdesigns
+        inconclass: fa fa-linkedin-square
